@@ -266,7 +266,7 @@
                 <tbody>
                     <tr>
                         <td class="pr-2">
-                            <small class="d-inline"><em>Mis à jour le 09/02/2024  </em></small> <br>
+                            <small class="d-inline"><em>Mis à jour le 30/06/2023</em></small> <br>
                         </td>
                         <td class="pr-2">
                             <img src="../images/operateurs/area.png" class="d-inline mr-1" alt="" style="height: 15px;">
