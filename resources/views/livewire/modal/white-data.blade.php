@@ -33,28 +33,28 @@
                 </table>
               
               <script>
-                var twhitedata = whiteData;
-                var tbywhite = document.getElementById('tbywhite');
-                var taw = null;
                 //setTimeout(initAllDataTable(),2000);
 
                 function initWhiteDataTable(){
+                let twhitedata = whiteData;
+                let tbywhite = document.getElementById('tbywhite');
+                let taw = null;
                     if(taw != null){
                       // Quickly and simply clear a table
                       $('#whitedata').dataTable().fnClearTable();
                       // Restore the table to it's original state in the DOM by removing all of DataTables enhancements, alterations to the DOM structure of the table and event listeners
                       $('#whitedata').dataTable().fnDestroy();
                     }
-                    var iabw = 1;
+                    let iabw = 1;
                   for(da in whiteData){
-                    var trw = document.createElement('tr');
+                    let trw = document.createElement('tr');
                     trw.id = da+"w";
                     tbywhite.appendChild(trw);
                     optionArw = whiteData[da];
                     for(opw in optionArw){
-                          var subw = document.getElementById(trw.id)
-                          var texw = optionArw[opw];
-                          var tdw = document.createElement('td');
+                          let subw = document.getElementById(trw.id)
+                          let texw = optionArw[opw];
+                          let tdw = document.createElement('td');
                           tdw.innerHTML = texw;
                           subw.appendChild(tdw);
                     }
@@ -68,7 +68,7 @@
 
 
                 function generateW() {
-                  var doc = new jspdf.jsPDF('l')
+                  let doc = new jspdf.jsPDF('l')
 
                   // Simple html example
                   doc.autoTable({ 

@@ -2797,7 +2797,9 @@ async function entite_administrative_name(nomEntite) {
     }
     else if (entite.value == 4) {
 
-        
+        console.log("LOCALITE SELECTIONNEES ===>", localite)
+        console.log("LOCALITE SELECTIONNEES ===>", nomEntite)
+        console.log("LOCALITE SELECTIONNEES ===>", localite[nomEntite])
         // Localité
         flyMap(localite[nomEntite].lg, localite[nomEntite].lt, 12);
         d_export = [4, dwdData[nomEntite].loc];

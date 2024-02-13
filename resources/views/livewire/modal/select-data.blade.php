@@ -62,18 +62,17 @@
           </div>
 
           <script>
-            var tdata = dwdData;
-            var tby = document.getElementById('tby');
-            var ta = null;
-            var last_export = null;
-            var tableC = document.getElementById('tablec');
-            var contentTable = document.getElementById('tcontent');
             setTimeout(initTable(), 2000);
 
-
             function initTable() {
+            let tdata = dwdData;
+            let tby = document.getElementById('tby');
+            let last_export = null;
+            let tableC = document.getElementById('tablec');
+            let contentTable = document.getElementById('tcontent');
+
               if (d_export != null && last_export != d_export) {
-                var mydata = [];
+                let mydata = [];
                 contentTable.innerHTML = '';
                 tableC.style.display = 'block';
                 if (d_export[0] == 1) {
@@ -112,7 +111,7 @@
             }
 
             function sansAccent(str) {
-              var accent = [
+              let accent = [
                 /[\300-\306]/g, /[\340-\346]/g, // A, a
                 /[\310-\313]/g, /[\350-\353]/g, // E, e
                 /[\314-\317]/g, /[\354-\357]/g, // I, i
@@ -121,10 +120,10 @@
                 /[\321]/g, /[\361]/g, // N, n
                 /[\307]/g, /[\347]/g, // C, c
               ];
-              var noaccent = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u', 'N', 'n', 'C', 'c'];
+              let noaccent = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u', 'N', 'n', 'C', 'c'];
 
 
-              for (var i = 0; i < accent.length; i++) {
+              for (let i = 0; i < accent.length; i++) {
                 str = str.replace(accent[i], noaccent[i]);
               }
 
@@ -132,6 +131,7 @@
             }
 
             function makeTable(tdata) {
+            let ta = null;
               if (ta != null) {
                 // Quickly and simply clear a table
                 $('#mydata').dataTable().fnClearTable();
@@ -139,15 +139,15 @@
                 $('#mydata').dataTable().fnDestroy();
               }
               for (data in tdata) {
-                var tr = document.createElement('tr');
+                let tr = document.createElement('tr');
                 tr.id = data;
                 tby.appendChild(tr);
                 optionArray = tdata[data]
                 for (opt in optionArray) {
                   if (optionArray.hasOwnProperty(opt)) {
-                    var subtr = document.getElementById(data)
-                    var text = optionArray[opt];
-                    var td = document.createElement('td');
+                    let subtr = document.getElementById(data)
+                    let text = optionArray[opt];
+                    let td = document.createElement('td');
                     if (opt == 'S2GORANGE' || opt == 'S2GMTN' || opt == 'S2GMOOV' || opt == 'S2G' || opt == 'S3GORANGE' || opt == 'S3GMTN' || opt == 'S3GMOOV' || opt == 'S3G' || opt == 'S4GORANGE' || opt == 'S4GMTN' || opt == 'S4GMOOV' || opt == 'S4G') {
                       if (optionArray[opt] == 1) {
                         td.innerHTML = '<i class="far fa-check-circle text-success"> Oui</i>';

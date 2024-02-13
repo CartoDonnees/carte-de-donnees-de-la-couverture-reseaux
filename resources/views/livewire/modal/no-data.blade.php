@@ -33,28 +33,28 @@
                 </table>
               
               <script>
-                var tnodata = noData;
-                var tbyno = document.getElementById('tbyno');
-                var tano = null;
                 //setTimeout(initAllDataTable(),2000);
 
                 function initNoDataTable(){
+                let tnodata = noData;
+                let tbyno = document.getElementById('tbyno');
+                let tano = null;
                     if(tano != null){
                       // Quickly and simply clear a table
                       $('#nodata').dataTable().fnClearTable();
                       // Restore the table to it's original state in the DOM by removing all of DataTables enhancements, alterations to the DOM structure of the table and event listeners
                       $('#nodata').dataTable().fnDestroy();
                     }
-                  var iabn = 1;
+                  let iabn = 1;
                   for(da in noData){
-                    var trn = document.createElement('tr');
+                    let trn = document.createElement('tr');
                     trn.id = da+"n";
                     tbyno.appendChild(trn);
                     optionArn = noData[da];
                     for(opn in optionArn){
-                          var subn = document.getElementById(trn.id)
-                          var texn = optionArn[opn];
-                          var tdn = document.createElement('td');
+                          let subn = document.getElementById(trn.id)
+                          let texn = optionArn[opn];
+                          let tdn = document.createElement('td');
                           tdn.innerHTML = texn;
                           subn.appendChild(tdn);
                       }
@@ -66,7 +66,7 @@
                 }
 
                 function generateNo() {
-                  var doc = new jspdf.jsPDF('l')
+                  let doc = new jspdf.jsPDF('l')
 
                   // Simple html example
                   doc.autoTable({ 
