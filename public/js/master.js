@@ -7,7 +7,7 @@ const wrappered = document.querySelector(".wrappered"),
     searchInp = wrappered.querySelector("input"),
     options = wrappered.querySelector(".options");
 
-var countries= new Object();
+var countries = new Object();
 
 let districts = {
     1: "BAS-SASSANDRA", 2: "DENGUELE", 3: "DISTRICT AUTONOME D'ABIDJAN",
@@ -19,12 +19,12 @@ let districts = {
 let regions = {
     1: "AGNEBI TIASSA", 2: "BAFING", 3: "BAGOUE", 4: "BELIER", 5: "BERE", 6: "BOUNKANI", 7: "CAVALLY", 10: "FOLON", 11: "GBEKE", 12: "GBOKLE", 13: "GOH",
     14: "GONTOUGO", 15: "GRANDS PONTS", 16: "GUEMON", 17: "HAMBOL", 18: "HAUT-SASSANDRA", 19: "IFFOU", 20: "INDENIE-DJOUABLIN", 21: "KABADOUGOU",
-    22:"LOH-DJIBOUA", 23:"MARAHOUE", 24:"ME", 25:"NAWA", 26:"PORO", 28:"SUD-COMOE", 29:"TCHOLOGO", 30:"TONKPI", 31:"WORODOUGOU", 32:"N'ZI", 33:"MORONOU"
+    22: "LOH-DJIBOUA", 23: "MARAHOUE", 24: "ME", 25: "NAWA", 26: "PORO", 28: "SUD-COMOE", 29: "TCHOLOGO", 30: "TONKPI", 31: "WORODOUGOU", 32: "N'ZI", 33: "MORONOU"
 };
 
 function clearSearch() {
 
-    if(marker != null){
+    if (marker != null) {
         marker.remove();
     }
     var entite = document.getElementById('entites');
@@ -34,59 +34,59 @@ function clearSearch() {
     optserach == false;
     flyMap(-5.89192, 7.41331, 5.5);
     d_export = null;
-    
+
     document.getElementById('statd').className = "d-none";
     document.getElementById('stats').className = "d-block";
 }
 
 function addCountry(country) {
     options.innerHTML = "";
-    if(entity == "rg" || entity=="dt"){
+    if (entity == "rg" || entity == "dt") {
         for (var i in country) {
             let li = `<li onclick="updateName(this)" class="${i}">${country[i]}</li>`;
             options.insertAdjacentHTML("beforeend", li);
         }
     }
-    if(entity == 'sp'){
-        for (i in country ){
+    if (entity == 'sp') {
+        for (i in country) {
             let li = `<li onclick="updateName(this)" class="${i}">${country[i]['sp'].toUpperCase()}</li>`;
             options.insertAdjacentHTML("beforeend", li);
         }
     }
-    if(entity == 'lc'){
-        for (i in country ){
+    if (entity == 'lc') {
+        for (i in country) {
             let li = `<li onclick="updateName(this)" class="${i}">${country[i]['loc']}</li>`;
             options.insertAdjacentHTML("beforeend", li);
         }
     }
-    
+
 }
 
 function updateName(selectedLi) {
     searchInp.value = "";
-    if(entity == "rg" || entity=="dt"){
+    if (entity == "rg" || entity == "dt") {
         addCountry(countries);
     }
-    if(entity == 'sp'){
+    if (entity == 'sp') {
         addCountry(dep);
     }
-    if(entity == 'lc'){
+    if (entity == 'lc') {
         addCountry(dwdData);
     }
 
-    if(selectedLi.className == '0'){
+    if (selectedLi.className == '0') {
         options.innerHTML = "";
-        options.classList.remove("active"); 
-    }else{
+        options.classList.remove("active");
+    } else {
         searchInp.value = selectedLi.innerText;
         entite_administrative_name(selectedLi.className);
         options.innerHTML = "";
-        options.classList.remove("active"); 
+        options.classList.remove("active");
     }
-     
+
 }
 
-searchInp.addEventListener("click",()=>{
+searchInp.addEventListener("click", () => {
     if (entity == "rg" || entity == "dt") {
         options.classList.add("active");
         addCountry(countries);
@@ -105,33 +105,33 @@ searchInp.addEventListener("click",()=>{
 
 searchInp.addEventListener("keydown", () => {
     let arr = [];
-    if (entity == "rg" || entity=="dt"){
+    if (entity == "rg" || entity == "dt") {
         let searchedVal = searchInp.value.toLowerCase();
-        arr = Object.entries(countries).filter( function([key, value]){
+        arr = Object.entries(countries).filter(function ([key, value]) {
             return value.toLowerCase().startsWith(searchedVal);
-        // }
-        //  data => {
-        //     return countries[data].toLowerCase().startsWith(searchedVal);
+            // }
+            //  data => {
+            //     return countries[data].toLowerCase().startsWith(searchedVal);
         }).map(data => `<li onclick="updateName(this)" class="${data[0]}">${data[1]}</li>`).join("");
         options.innerHTML = arr ? arr : `<p>Oops! Country not found</p>`;
     }
-    if(entity == "sp"){
+    if (entity == "sp") {
         let searchedVal = searchInp.value.toLowerCase();
-        arr = Object.entries(dep).filter( function([key, value]){
+        arr = Object.entries(dep).filter(function ([key, value]) {
             return value.sp.toLowerCase().startsWith(searchedVal);
-        // }
-        //  data => {
-        //     return countries[data].toLowerCase().startsWith(searchedVal);
+            // }
+            //  data => {
+            //     return countries[data].toLowerCase().startsWith(searchedVal);
         }).map(data => `<li onclick="updateName(this)" class="${data[0]}">${data[1].sp}</li>`).join("");
         options.innerHTML = arr ? arr : `<p>Oops! Country not found</p>`;
     }
-    if (entity == "lc"){
+    if (entity == "lc") {
         let searchedVal = searchInp.value.toLowerCase();
-        arr = Object.entries(dwdData).filter( function([key, value]){
+        arr = Object.entries(dwdData).filter(function ([key, value]) {
             return value.loc.toLowerCase().startsWith(searchedVal);
-        // }
-        //  data => {
-        //     return countries[data].toLowerCase().startsWith(searchedVal);
+            // }
+            //  data => {
+            //     return countries[data].toLowerCase().startsWith(searchedVal);
         }).map(data => `<li onclick="updateName(this)" class="${data[0]}">${data[1].loc}</li>`).join("");
         options.innerHTML = arr ? arr : `<p>Oops! Country not found</p>`;
     }
@@ -216,11 +216,7 @@ var chartDog = new Chart("myChart", {
     options: {
         title: {
             display: true,
-            text: "Population couverte par technologie",
-        },
-        tooltips: {
-            mode: 'index',
-            intersect: false
+            text: "Localités couvertes par technologie",
         },
         responsive: true,
         plugins: {
@@ -230,7 +226,15 @@ var chartDog = new Chart("myChart", {
                     fontSize: 6
                 },
                 position: 'bottom'
-            }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context, index) {
+                        console.log('element======>  ', context)
+                        return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / nbLoc).toFixed(2) + '%';
+                    }
+                }
+            },
         },
         scales: {
             x: {
@@ -303,10 +307,6 @@ var chartDin = new Chart("netData", {
             display: true,
             text: "Population couverte par technologie",
         },
-        tooltips: {
-            mode: 'index',
-            intersect: false
-        },
         responsive: true,
         plugins: {
             legend: {
@@ -315,7 +315,14 @@ var chartDin = new Chart("netData", {
                     fontSize: 4
                 },
                 position: 'bottom'
-            }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context, index) {
+                        return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / pops).toFixed(2) + '%';
+                    }
+                }
+            },
         },
         scales: {
             x: {
@@ -382,7 +389,7 @@ if (!mapboxgl.supported()) {
         zoom: 6.1, //starting zoom,
         maxZoom: 22,
         minZoom: 4,
-        maxBounds: [-16, 2, 3, 13], 
+        maxBounds: [-16, 2, 3, 13],
         attributionControl: false,
     });
 
@@ -436,7 +443,6 @@ map.addControl(new mapboxgl.ScaleControl({ maxWidth: 80, unit: 'metric' })); // 
 
 map.on('load', () => {
     //Sources
-
     addOnSource('sous_prefs', 'geojson', 'dataFiles/geojson/ci_limites_sous_prefecture.geojson');
     addOnSource('departements', 'geojson', 'dataFiles/geojson/ci_limites_departements.geojson');
     addOnSource('regions', 'geojson', 'dataFiles/geojson/region_limites2023.geojson');
@@ -450,75 +456,75 @@ map.on('load', () => {
     addFillLayer('departement-fills', 'departements', 8.5, 20, 'rgba(214, 136, 18, 0.1)', 0.2);
 
     //Données
-    
+
     //Unique fonction d'afficher le nom des localité sur la carte
     addOnSource('screendata', 'geojson', 'dataFiles/geojson/all_data2023.geojson');
     addOnCircleLayerLocalisation('sdata', 'screendata', 'black');
 
-    addOnSource('alldata', 'geojson', 'dataFiles/geojson/data2G.geojson');
+    addOnSource('alldata', 'geojson', 'dataFiles/geojson/all_data2023.geojson');
     addOnCircleLayer('adata', 'alldata', '#00b09b');
     layerVisible.push('adata');
 
 
-    addOnSource('data2G', 'geojson', 'dataFiles/geojson/data2G.geojson');
-    addOnCircleLayer('d2G', 'data2G', '#00b09b');
+    // addOnSource('data2G', 'geojson', 'dataFiles/geojson/data2G.geojson');
+    addOnCircleLayerWithFilter('d2G', 'alldata', '#00b09b', ["==", ['get', 'cov2G'], 1]);
     layerVisible.push('d2G');
 
-    addOnSource('data3G', 'geojson', 'dataFiles/geojson/data3G.geojson');
-    addOnCircleLayer('d3G', 'data3G', '#00b09b');
+    // addOnSource('data3G', 'geojson', 'dataFiles/geojson/data3G.geojson');
+    addOnCircleLayerWithFilter('d3G', 'alldata', '#00b09b', ["==", ['get', 'cov3G'], 1]);
     layerVisible.push('d3G');
 
-    addOnSource('data4G', 'geojson', 'dataFiles/geojson/data4G.geojson');
-    addOnCircleLayer('d4G', 'data4G', '#00b09b');
+    // addOnSource('data4G', 'geojson', 'dataFiles/geojson/data4G.geojson');
+    addOnCircleLayerWithFilter('d4G', 'alldata', '#00b09b', ["==", ['get', 'cov4G'], 1]);
     layerVisible.push('d4G');
 
-    addOnSource('dataOrange', 'geojson', 'dataFiles/geojson/dataOrange.geojson');
-    addOnCircleLayer('odata', 'dataOrange', 'orange');
+    // addOnSource('dataOrange', 'geojson', 'dataFiles/geojson/dataOrange.geojson');
+    addOnCircleLayerWithFilter('odata', 'alldata', 'orange', ["==", ['get', 'covORANGE2G'], 1]);
     layerVisible.push('odata');
 
-    addOnSource('dataMtn', 'geojson', 'dataFiles/geojson/dataMtn.geojson');
-    addOnCircleLayer('mtdata', 'dataMtn', '#fffc37');
+    // addOnSource('dataMtn', 'geojson', 'dataFiles/geojson/dataMtn.geojson');
+    addOnCircleLayerWithFilter('mtdata', 'alldata', '#fffc37', ["==", ['get', 'covMTN2G'], 1]);
     layerVisible.push('mtdata');
 
-    addOnSource('dataMoov', 'geojson', 'dataFiles/geojson/dataMoov.geojson');
-    addOnCircleLayer('modata', 'dataMoov', '#075bf7');
+    // addOnSource('dataMoov', 'geojson', 'dataFiles/geojson/dataMoov.geojson');
+    addOnCircleLayerWithFilter('modata', 'alldata', '#075bf7', ["==", ['get', 'covMOOV2G'], 1]);
     layerVisible.push('modata');
 
-    addOnSource('dataOrange2G', 'geojson', 'dataFiles/geojson/dataOrange2G.geojson');
-    addOnCircleLayer('o2Gdata', 'dataOrange2G', 'orange');
+    // addOnSource('dataOrange2G', 'geojson', 'dataFiles/geojson/dataOrange2G.geojson');
+    addOnCircleLayerWithFilter('o2Gdata', 'alldata', 'orange', ["==", ['get', 'covORANGE2G'], 1]);
     layerVisible.push('o2Gdata');
 
-    addOnSource('dataMtn2G', 'geojson', 'dataFiles/geojson/dataMtn2G.geojson');
-    addOnCircleLayer('mt2Gdata', 'dataMtn2G', '#fffc37');
+    // addOnSource('dataMtn2G', 'geojson', 'dataFiles/geojson/dataMtn2G.geojson');
+    addOnCircleLayerWithFilter('mt2Gdata', 'alldata', '#fffc37', ["==", ['get', 'covMTN2G'], 1]);
     layerVisible.push('mt2Gdata');
 
-    addOnSource('dataMoov2G', 'geojson', 'dataFiles/geojson/dataMoov2G.geojson');
-    addOnCircleLayer('mo2Gdata', 'dataMoov2G', '#075bf7');
+    // addOnSource('dataMoov2G', 'geojson', 'dataFiles/geojson/dataMoov2G.geojson');
+    addOnCircleLayerWithFilter('mo2Gdata', 'alldata', '#075bf7', ["==", ['get', 'covMOOV2G'], 1]);
     layerVisible.push('mo2Gdata');
 
-    addOnSource('dataOrange3G', 'geojson', 'dataFiles/geojson/dataOrange3G.geojson');
-    addOnCircleLayer('o3Gdata', 'dataOrange3G', 'orange');
+    // addOnSource('dataOrange3G', 'geojson', 'dataFiles/geojson/dataOrange3G.geojson');
+    addOnCircleLayerWithFilter('o3Gdata', 'alldata', 'orange', ["==", ['get', 'covORANGE3G'], 1]);
     layerVisible.push('o3Gdata');
 
-    addOnSource('dataMtn3G', 'geojson', 'dataFiles/geojson/dataMtn3G.geojson');
-    addOnCircleLayer('mt3Gdata', 'dataMtn3G', '#fffc37');
+    // addOnSource('dataMtn3G', 'geojson', 'dataFiles/geojson/dataMtn3G.geojson');
+    addOnCircleLayerWithFilter('mt3Gdata', 'alldata', '#fffc37', ["==", ['get', 'covMTN3G'], 1]);
     layerVisible.push('mt3Gdata');
 
-    addOnSource('dataMoov3G', 'geojson', 'dataFiles/geojson/dataMoov3G.geojson');
-    addOnCircleLayer('mo3Gdata', 'dataMoov3G', '#075bf7');
+    // addOnSource('dataMoov3G', 'geojson', 'dataFiles/geojson/dataMoov3G.geojson');
+    addOnCircleLayerWithFilter('mo3Gdata', 'alldata', '#075bf7', ["==", ['get', 'covMOOV3G'], 1]);
     layerVisible.push('mo3Gdata');
 
-    addOnSource('dataOrange4G', 'geojson', 'dataFiles/geojson/dataOrange4G.geojson');
-    addOnCircleLayer('o4Gdata', 'dataOrange4G', 'orange');
+    // addOnSource('dataOrange4G', 'geojson', 'dataFiles/geojson/dataOrange4G.geojson');
+    addOnCircleLayerWithFilter('o4Gdata', 'alldata', 'orange', ["==", ['get', 'covORANGE4G'], 1]);
     layerVisible.push('o4Gdata');
 
-    addOnSource('dataMtn4G', 'geojson', 'dataFiles/geojson/dataMtn4G.geojson');
-    addOnCircleLayer('mt4Gdata', 'dataMtn4G', '#fffc37');
+    // addOnSource('dataMtn4G', 'geojson', 'dataFiles/geojson/dataMtn4G.geojson');
+    addOnCircleLayerWithFilter('mt4Gdata', 'alldata', '#fffc37', ["==", ['get', 'covMTN4G'], 1]);
     layerVisible.push('mt4Gdata');
 
     //Ajout des données de couverture 4G
-    addOnSource('dataMoov4G', 'geojson', 'dataFiles/geojson/dataMoov4G.geojson');
-    addOnCircleLayer('mo4Gdata', 'dataMoov4G', '#075bf7');
+    // addOnSource('dataMoov4G', 'geojson', 'dataFiles/geojson/dataMoov4G.geojson');
+    addOnCircleLayerWithFilter('mo4Gdata', 'alldata', '#075bf7', ["==", ['get', 'covMOOV4G'], 1]);
     layerVisible.push('mo4Gdata');
 
 
@@ -581,11 +587,11 @@ map.on('load', () => {
     addLineLayer('state-borders', 'states', 1, 7, 'rgba(22, 23, 24, 0.911)', 1.5);
 
     //Layer Label
-    
+
     addLayerLabel('region-label', 'regions', 'admin2Name', 6, 9);
     addLayerLabel('district-label', 'districts', 'admin1Name', 1, 8);
     addLayerLabelLocalisation('localite-label', 'screendata', 'localite', 8, 20);
-    
+
 
 
     // Create a popup, but don't add it to the map yet.
@@ -688,7 +694,7 @@ map.on('load', () => {
     });
 
 
-// CLICK DE DISTRICT
+    // CLICK DE DISTRICT
     map.on('click', 'district-fills', (e) => {
         d_export = [1, e.features[0].properties.admin1Name, e.features[0].properties.popcouv, e.features[0].properties.population, e.features[0].properties.nbcouvloc, e.features[0].properties.nbcouvloc, e.features[0].properties.nbloc];
 
@@ -804,11 +810,7 @@ map.on('load', () => {
             options: {
                 title: {
                     display: true,
-                    text: "Population couverte par technologie",
-                },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false
+                    text: "Localités couvertes par technologie",
                 },
                 responsive: true,
                 plugins: {
@@ -818,7 +820,14 @@ map.on('load', () => {
                             fontSize: 6
                         },
                         position: 'bottom'
-                    }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context, index) {
+                                return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / nb_loc).toFixed(2) + '%';
+                            }
+                        }
+                    },
                 },
                 scales: {
                     x: {
@@ -891,10 +900,6 @@ map.on('load', () => {
                     display: true,
                     text: "Population couverte par technologie",
                 },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false
-                },
                 responsive: true,
                 plugins: {
                     legend: {
@@ -903,7 +908,14 @@ map.on('load', () => {
                             fontSize: 6
                         },
                         position: 'bottom'
-                    }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context, index) {
+                                return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / popu).toFixed(2) + '%';
+                            }
+                        }
+                    },
                 },
                 scales: {
                     x: {
@@ -1043,7 +1055,7 @@ map.on('load', () => {
             options: {
                 title: {
                     display: true,
-                    text: "Population couverte par technologie",
+                    text: "Localités couvertes par technologie",
                 },
                 tooltips: {
                     mode: 'index',
@@ -1057,7 +1069,14 @@ map.on('load', () => {
                             fontSize: 6
                         },
                         position: 'bottom'
-                    }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context, index) {
+                                return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / nb_loc).toFixed(2) + '%';
+                            }
+                        }
+                    },
                 },
                 scales: {
                     x: {
@@ -1130,10 +1149,6 @@ map.on('load', () => {
                     display: true,
                     text: "Population couverte par technologie",
                 },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false
-                },
                 responsive: true,
                 plugins: {
                     legend: {
@@ -1142,7 +1157,14 @@ map.on('load', () => {
                             fontSize: 6
                         },
                         position: 'bottom'
-                    }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context, index) {
+                                return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / popu).toFixed(2) + '%';
+                            }
+                        }
+                    },
                 },
                 scales: {
                     x: {
@@ -1267,23 +1289,23 @@ function addOnAntennaLayer(id, source, image, color) {
     map.loadImage(
         image,
         (error, image) => {
-        if (error) throw error;
-         
-        // Add the image to the map style.
-        map.addImage('cat', image);
+            if (error) throw error;
 
-    
-    map.addLayer({
-        'id': id +'-icon',
-        'type': 'symbol',
-        'source': source, // reference the data source
-        'layout': {
-        'icon-image': 'cat', // reference the image
-        'icon-size': 0.25,
-        'icon-anchor': 'bottom', // Set the anchor point of the icon to the bottom
-                'icon-offset': [0, -30]
-        }
-        });
+            // Add the image to the map style.
+            map.addImage('cat', image);
+
+
+            map.addLayer({
+                'id': id + '-icon',
+                'type': 'symbol',
+                'source': source, // reference the data source
+                'layout': {
+                    'icon-image': 'cat', // reference the image
+                    'icon-size': 0.25,
+                    'icon-anchor': 'bottom', // Set the anchor point of the icon to the bottom
+                    'icon-offset': [0, -30]
+                }
+            });
 
             map.addLayer({
                 'id': id + '-text',
@@ -1294,16 +1316,16 @@ function addOnAntennaLayer(id, source, image, color) {
                     'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
                     // Adjust the vertical offset of the technology label
                     'text-size': 12,
-                    'text-offset':[0,-4],
-                    'text-anchor':  'bottom'
+                    'text-offset': [0, -4],
+                    'text-anchor': 'bottom'
                 },
                 'paint': {
                     'text-color': color
                 },
                 'minzoom': 8
-        });
+            });
 
-    })
+        })
 }
 
 function removeNetworkAntennaLayer(id) {
@@ -1329,6 +1351,20 @@ function addOnCircleLayer(id, source, color) {
             'circle-color': color,
             //'circle-stroke-color': 'white'
         }
+    });
+}
+function addOnCircleLayerWithFilter(id, source, color, filter) {
+    map.addLayer({
+        'id': id,
+        'type': 'circle',
+        'source': source,
+        'paint': {
+            'circle-radius': 4,
+            //'circle-stroke-width': 2,
+            'circle-color': color,
+            //'circle-stroke-color': 'white'
+        },
+        filter: filter
     });
 }
 
@@ -1361,14 +1397,14 @@ function addOnCircleLayerWhite(id, source) {
         'type': 'circle',
         'source': source,
         'paint': {
-          'circle-radius': 4,
-          'circle-color': 'white',
-          'circle-stroke-width': 0.5,
-          'circle-stroke-color': 'black'
+            'circle-radius': 4,
+            'circle-color': 'white',
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': 'black'
         }
-      });
+    });
 }
-  
+
 
 
 function addLineLayer(id, source, minzoom, maxzoom, color, width) {
@@ -1523,24 +1559,24 @@ function showAntenna(id) {
     removeNetworkAntennaLayer('moAnt2g');
 
     if (id == "or" && ator.checked == true) {
-        
+
         if (atmt.checked == true) { addOnAntennaLayer('mtAnt2g', 'mtnantenna2g', 'images/antenna/antenna.png', 'yellow'); }
         if (atmo.checked == true) { addOnAntennaLayer('moAnt2g', 'moovantenna2g', 'images/antenna/antenna.png', 'blue'); }
         addOnAntennaLayer('orAnt2g', 'orangeantenna2g', 'images/antenna/antenna.png', 'orange');
     }
     else if (id == "mt" && atmt.checked == true) {
-        
+
         if (atmo.checked == true) { addOnAntennaLayer('moAnt2g', 'moovantenna2g', 'images/antenna/antenna.png', 'blue'); }
         if (ator.checked == true) { addOnAntennaLayer('orAnt2g', 'orangeantenna2g', 'images/antenna/antenna.png', 'orange'); }
         addOnAntennaLayer('mtAnt2g', 'mtnantenna2g', 'images/antenna/antenna.png', 'yellow');
     }
     else if (id == "mo" && atmo.checked == true) {
-        
+
         if (ator.checked == true) { addOnAntennaLayer('orAnt2g', 'orangeantenna2g', 'images/antenna/antenna.png', 'orange'); }
         if (atmt.checked == true) { addOnAntennaLayer('mtAnt2g', 'mtnantenna2g', 'images/antenna/antenna.png', 'yellow'); }
         addOnAntennaLayer('moAnt2g', 'moovantenna2g', 'images/antenna/antenna.png', 'blue');
     }
-    else{
+    else {
         if (atmt.checked == true) { addOnAntennaLayer('mtAnt2g', 'mtnantenna2g', 'images/antenna/antenna.png', 'yellow'); }
         if (atmo.checked == true) { addOnAntennaLayer('moAnt2g', 'moovantenna2g', 'images/antenna/antenna.png', 'blue'); }
         if (ator.checked == true) { addOnAntennaLayer('orAnt2g', 'orangeantenna2g', 'images/antenna/antenna.png', 'orange'); }
@@ -1957,8 +1993,8 @@ function showNoData() {
 var marker = null;
 
 function entite_administrative() {
-    
-    if(marker != null){
+
+    if (marker != null) {
         marker.remove();
     }
     var entite = document.getElementById('entites');
@@ -1997,7 +2033,7 @@ function entite_administrative() {
 
         // nomEntite.removeAttribute('hidden');
         entite.innerHTML = '<option value="1">Districts</option><option selected value="2">Régions</option><option value="3">Sous-préfectures</option><option value="4">Localités</option><option value="5">Annuler votre selection</option>';
-        
+
         // nomEntite.innerHTML = '<option value="">-----------------------------------</option>' +
         //     '<option value="1">AGNEBI TIASSA</option>' +
         //     '<option value="2">BAFING</option>' +
@@ -2087,7 +2123,7 @@ function entite_administrative() {
 
         // nomEntite.setAttribute('hidden');
         entite.innerHTML = '<option value="1">Districts</option><option value="2">Régions</option><option value="3">Sous-préfectures</option><option selected value="4">Localités</option><option value="5">Annuler votre selection</option>';
-        
+
         // nomEntite.innerHTML = '<option value= "">Selectionner localité</option>';
         searchInp.value = "";
         options.classList.remove("active");
@@ -2140,11 +2176,11 @@ function entite_administrative() {
 
 async function entite_administrative_name(nomEntite) {
     var entite = document.getElementById('entites');
-    
-    if(marker != null){
+
+    if (marker != null) {
         marker.remove();
     }
-    
+
 
     if (entite.value == 1) {
 
@@ -2187,7 +2223,7 @@ async function entite_administrative_name(nomEntite) {
         } else if (nomEntite == 13) {
             flyMap(-4.50054, 5.94614, 7);
             d_export = [1, 'LAGUNES'];
-        } else if (nomEntite== 14) {
+        } else if (nomEntite == 14) {
             flyMap(-3.23515, 5.35694, 7);
             d_export = [1, 'COMOE'];
         } else {
@@ -2205,18 +2241,17 @@ async function entite_administrative_name(nomEntite) {
         optserach = true;
 
         reponse = await fetch('../dataFiles/geojson/ci_limite_distrricts.geojson');
-        myGeoData = await reponse.json(); 
+        myGeoData = await reponse.json();
         for (var i = 0; i < myGeoData['features'].length; i++) {
-        console.log(myGeoData['features'][i]['id']);
-            if(myGeoData['features'][i]['id'] == lock_id)
-            {
+            console.log(myGeoData['features'][i]['id']);
+            if (myGeoData['features'][i]['id'] == lock_id) {
                 document.getElementById('stat_dist').innerHTML = '<small>DISTRICT: <b class="text-primary">' + myGeoData['features'][i]['properties'].admin1Name + ' </b></small>'
-    
+
                 p_click = true;
-    
+
                 document.getElementById('statd').className = "d-block";
                 document.getElementById('stats').className = "d-none";
-    
+
                 chartDog.destroy();
                 chartDin.destroy();
                 const nbo2G = myGeoData['features'][i]['properties'].nbcouv2gOr;
@@ -2243,10 +2278,10 @@ async function entite_administrative_name(nomEntite) {
                 const nb_loc = myGeoData['features'][i]['properties'].nbloc;
                 const txcloc = myGeoData['features'][i]['properties'].txcouvloc;
                 const txcpop = myGeoData['features'][i]['properties'].txpopcouv;
-                
+
                 document.getElementById('nb_locs').innerHTML = '<small>Nombre : <b class="text-primary">' + loc_c + '/' + nb_loc + ' => ' + txcloc.toFixed(2) + '%</b></small>'
                 document.getElementById('nb_pops').innerHTML = '<small>Effectif: <b class="text-primary">' + populat_c + '/' + popu + ' => ' + txcpop.toFixed(2) + '%</b></small>'
-    
+
                 chartDog = new Chart("myChart", {
                     type: 'bar',
                     data: {
@@ -2295,11 +2330,7 @@ async function entite_administrative_name(nomEntite) {
                     options: {
                         title: {
                             display: true,
-                            text: "Population couverte par technologie",
-                        },
-                        tooltips: {
-                            mode: 'index',
-                            intersect: false
+                            text: "Localités couvertes par technologie",
                         },
                         responsive: true,
                         plugins: {
@@ -2309,7 +2340,14 @@ async function entite_administrative_name(nomEntite) {
                                     fontSize: 6
                                 },
                                 position: 'bottom'
-                            }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context, index) {
+                                        return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / nb_loc).toFixed(2) + '%';
+                                    }
+                                }
+                            },
                         },
                         scales: {
                             x: {
@@ -2329,9 +2367,9 @@ async function entite_administrative_name(nomEntite) {
                                 }
                             }
                         },
-                    },  
+                    },
                 });
-    
+
                 chartDin = new Chart("netData", {
                     type: 'bar',
                     data: {
@@ -2382,10 +2420,6 @@ async function entite_administrative_name(nomEntite) {
                             display: true,
                             text: "Population couverte par technologie",
                         },
-                        tooltips: {
-                            mode: 'index',
-                            intersect: false
-                        },
                         responsive: true,
                         plugins: {
                             legend: {
@@ -2394,7 +2428,14 @@ async function entite_administrative_name(nomEntite) {
                                     fontSize: 6
                                 },
                                 position: 'bottom'
-                            }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context, index) {
+                                        return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / popu).toFixed(2) + '%';
+                                    }
+                                }
+                            },
                         },
                         scales: {
                             x: {
@@ -2462,7 +2503,7 @@ async function entite_administrative_name(nomEntite) {
         } else if (nomEntite == 14) {
             flyMap(-3.11165, 8.37893, 8);
             d_export = [2, 'GONTOUGO'];
-        } else if (nomEntite== 15) {
+        } else if (nomEntite == 15) {
             flyMap(-4.8035, 5.28134, 8);
             d_export = [2, 'GRANDS-PONTS'];
         } else if (nomEntite == 16) {
@@ -2489,7 +2530,7 @@ async function entite_administrative_name(nomEntite) {
         } else if (nomEntite == 23) {
             flyMap(-5.77456, 7.00595, 8);
             d_export = [2, 'MARAHOUE'];
-        } else if (nomEntite== 24) {
+        } else if (nomEntite == 24) {
             flyMap(-3.86294, 6.08913, 8);
             d_export = [2, 'LA ME'];
         } else if (nomEntite == 25) {
@@ -2530,20 +2571,19 @@ async function entite_administrative_name(nomEntite) {
         map.setFeatureState({ source: 'regions', id: r_lock }, { hover: true });
         optserach = true;
 
-        
+
         reponse = await fetch('../dataFiles/geojson/ci_limites_regions.geojson');
-        myGeoData = await reponse.json(); 
+        myGeoData = await reponse.json();
         for (var i = 0; i < myGeoData['features'].length; i++) {
-        console.log(myGeoData['features'][i]['id']);
-            if(myGeoData['features'][i]['id'] == r_lock)
-            {
+            console.log(myGeoData['features'][i]['id']);
+            if (myGeoData['features'][i]['id'] == r_lock) {
                 document.getElementById('stat_dist').innerHTML = '<small>REGION: <b class="text-primary">' + myGeoData['features'][i]['properties'].admin2Name + ' </b></small>'
-    
+
                 p_click = true;
-    
+
                 document.getElementById('statd').className = "d-block";
                 document.getElementById('stats').className = "d-none";
-    
+
                 chartDog.destroy();
                 chartDin.destroy();
                 const nbo2G = myGeoData['features'][i]['properties'].nbcouv2gOr;
@@ -2570,10 +2610,10 @@ async function entite_administrative_name(nomEntite) {
                 const nb_loc = myGeoData['features'][i]['properties'].nbloc;
                 const txcloc = myGeoData['features'][i]['properties'].txcouvloc;
                 const txcpop = myGeoData['features'][i]['properties'].txpopcouv;
-                
+
                 document.getElementById('nb_locs').innerHTML = '<small>Nombre : <b class="text-primary">' + loc_c + '/' + nb_loc + ' => ' + txcloc.toFixed(2) + '%</b></small>'
                 document.getElementById('nb_pops').innerHTML = '<small>Effectif: <b class="text-primary">' + populat_c + '/' + popu + ' => ' + txcpop.toFixed(2) + '%</b></small>'
-    
+
                 chartDog = new Chart("myChart", {
                     type: 'bar',
                     data: {
@@ -2656,9 +2696,9 @@ async function entite_administrative_name(nomEntite) {
                                 }
                             }
                         },
-                    },  
+                    },
                 });
-    
+
                 chartDin = new Chart("netData", {
                     type: 'bar',
                     data: {
@@ -2755,28 +2795,28 @@ async function entite_administrative_name(nomEntite) {
             flyMap(dep[nomEntite].lg, dep[nomEntite].lt, 10);
             d_export = [3, dep[nomEntite].sp];
 
-        //     fetch('dataFiles/geojson/ci_limites_departements.geojson')
-        //         .then(function (response) {
-        //             return response.json();
-        //         })
-        //         .then(function (data) {
-        //             for (var i = 0; i < data['features'].length; i++) {
+            //     fetch('dataFiles/geojson/ci_limites_departements.geojson')
+            //         .then(function (response) {
+            //             return response.json();
+            //         })
+            //         .then(function (data) {
+            //             for (var i = 0; i < data['features'].length; i++) {
 
-        //                 if (data['features'][i]['properties'].ADM3_FR == nomEntite.options[nomEntite.selectedIndex].text) {
-        //                     flyMap(data['features'][i]['geometry']['coordinates'][0][0][0], // -3.4404
-        //                         data['features'][i]['geometry']['coordinates'][0][0][1],  //6.73439
-        //                         10);
-        //                 }
+            //                 if (data['features'][i]['properties'].ADM3_FR == nomEntite.options[nomEntite.selectedIndex].text) {
+            //                     flyMap(data['features'][i]['geometry']['coordinates'][0][0][0], // -3.4404
+            //                         data['features'][i]['geometry']['coordinates'][0][0][1],  //6.73439
+            //                         10);
+            //                 }
 
-        //             }
-        //         });
-        //     // flyMap(-3.7008, // -3.4404
-        //     //        6.7797,  //6.73439
-        //     //      10);
-        //     d_export = [3, nomEntite.options[nomEntite.selectedIndex].text];
+            //             }
+            //         });
+            //     // flyMap(-3.7008, // -3.4404
+            //     //        6.7797,  //6.73439
+            //     //      10);
+            //     d_export = [3, nomEntite.options[nomEntite.selectedIndex].text];
 
-        document.getElementById('statd').className = "d-none";
-        document.getElementById('stats').className = "d-block";
+            document.getElementById('statd').className = "d-none";
+            document.getElementById('stats').className = "d-block";
 
         }
         else {
@@ -2818,14 +2858,14 @@ async function entite_administrative_name(nomEntite) {
         }
         document.getElementById('statd').className = "d-none";
         document.getElementById('stats').className = "d-block";
-    } else  if(entite.value == 5){
+    } else if (entite.value == 5) {
         optserach == false;
         flyMap(-5.89192, 7.41331, 5.5);
         d_export = null;
         document.getElementById('statd').className = "d-none";
         document.getElementById('stats').className = "d-block";
     }
-    else{}
+    else { }
 }
 
 function flyMap(lng, lat, zoom) {
@@ -2869,11 +2909,11 @@ function resetMap() {
     r_click = false;
     d_export = null;
     flyMap(-5.891926847184704, 7.41331470697536, 6.1);
-    
+
     document.getElementById('statd').className = "d-none";
     document.getElementById('stats').className = "d-block";
     p_click = false;
-    
+
 }
 
 
@@ -2887,12 +2927,8 @@ setTimeout(() => {
                 data: [nbcouvOr, nbcouvMt, nbcouvMo]
             }]
         },
-        
+
         options: {
-            tooltips: {
-                mode: 'index',
-                intersect: false
-            },
             responsive: true,
             plugins: {
                 legend: {
@@ -2901,9 +2937,9 @@ setTimeout(() => {
                         fontSize: 6
                     },
                     position: 'bottom'
-                }
+                },
             },
-        }  
+        }
     });
 
     new Chart('genChart', {
@@ -2954,11 +2990,7 @@ setTimeout(() => {
         options: {
             title: {
                 display: true,
-                text: "Population couverte par technologie",
-            },
-            tooltips: {
-                mode: 'index',
-                intersect: false
+                text: "Localités couvertes par technologie",
             },
             responsive: true,
             plugins: {
@@ -2968,7 +3000,15 @@ setTimeout(() => {
                         fontSize: 6
                     },
                     position: 'bottom'
-                }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context, index) {
+                            console.log('element======>  ', context)
+                            return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / nbLoc).toFixed(2) + '%';
+                        }
+                    }
+                },
             },
             scales: {
                 x: {
@@ -3042,10 +3082,6 @@ setTimeout(() => {
                 display: true,
                 text: "Populations couverte par technologie",
             },
-            tooltips: {
-                mode: 'index',
-                intersect: false
-            },
             responsive: true,
             plugins: {
                 legend: {
@@ -3054,7 +3090,15 @@ setTimeout(() => {
                         fontSize: 14
                     },
                     position: 'bottom'
-                }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (context, index) {
+                            console.log('element======>  ', context)
+                            return context.dataset.label + ': ' + context.dataset.data[context.dataIndex] + ' => ' + (context.dataset.data[context.dataIndex] * 100 / pops).toFixed(2) + '%';
+                        }
+                    }
+                },
             },
             scales: {
                 x: {
@@ -3078,15 +3122,15 @@ setTimeout(() => {
     });
 
 
-    function getDistrictDataForGraph(type){
-        if(type == 1){
-            
+    function getDistrictDataForGraph(type) {
+        if (type == 1) {
+
         }
-        else{
+        else {
 
         }
     }
-    
+
 
 
 }, 2000);

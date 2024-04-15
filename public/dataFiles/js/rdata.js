@@ -143,7 +143,8 @@ var AGN = {
     "popOrange4G":152252,
     "popMtn4G":130508,
     "popMoov4G":106681,
-    };var BOU = {
+    };
+    var BOU = {
     "region":"BOUNKANI",
     "district":"ZANZAN",
     "population":267167,
@@ -723,7 +724,7 @@ var AGN = {
     "popOrange4G":262994,
     "popMtn4G":106865,
     "popMoov4G":103916,
-    };var N'Z = {
+    };var NZ = {
     "region":"N'ZI",
     "district":"LACS",
     "population":247578,

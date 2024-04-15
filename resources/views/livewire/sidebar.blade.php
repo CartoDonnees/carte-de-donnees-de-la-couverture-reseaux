@@ -150,6 +150,14 @@
                                 <div class="text-center text-secondary">
                                     <b class="text-primary">Statistiques générales</b>
                                 </div>
+                                <div class="p-2 bg-light">
+                                    <div id="ttLoc">
+                                        <small><b>Total localités :</b> 0000000</small>
+                                    </div>
+                                    <div id="ttPop">
+                                        <small><b>Total population :</b> </small>
+                                    </div>
+                                </div>
                                 <h5 class="text-center" style="font-size:12px"><b>Localités couvertes par
                                         technologie</b></h5>
                                 <div id="nb_locss" class="text-center"></div>
@@ -170,8 +178,10 @@
                                 </div>
                                 <script>
                                     setTimeout(() => {
-                                        document.getElementById('nb_locss').innerHTML = '<small>Nombre : <b class="text-primary">' + couvTotpop + '</b></small>'
-                                        document.getElementById('nb_popss').innerHTML = '<small>Effectif: <b class="text-primary">' + pops + '</b></small>'
+                                        document.getElementById('nb_locss').innerHTML = '<small>Nombre : <b class="text-primary">' + couvTotLoc + '</b></small>'
+                                        document.getElementById('nb_popss').innerHTML = '<small>Effectif: <b class="text-primary">' + couvTotpop + '</b></small>'
+                                        document.getElementById('ttLoc').innerHTML = '<small>Total des localités : <b class="text-success">' + nbLoc + '</b></small>'
+                                        document.getElementById('ttPop').innerHTML = '<small>Total de population : <b class="text-success">' + pops + '</b></small>'
                                     }, 2000);
                                 </script>
                             </div>
