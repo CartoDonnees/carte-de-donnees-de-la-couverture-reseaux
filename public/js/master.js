@@ -535,7 +535,7 @@ map.on('load', () => {
 
 
     // addOnSource('areawhitedata', 'geojson', 'dataFiles/geojson/dataWhiteArea.geojson');
-    addOnCircleLayerWithFilter('awdata', 'alldata',["==", ['get', 'popCov'], 0]);
+    addOnCircleLayerWithFilter('awdata', 'alldata','white',["==", ['get', 'popCov'], 0]);
     layerVisible.push('awdata');
 
     //Ajout des antennes
