@@ -443,8 +443,8 @@ map.addControl(new mapboxgl.ScaleControl({ maxWidth: 80, unit: 'metric' })); // 
 
 map.on('load', () => {
     //Sources
-    addOnSource('sous_prefs', 'geojson', 'dataFiles/geojson/ci_limites_sous_prefecture.geojson');
-    addOnSource('departements', 'geojson', 'dataFiles/geojson/ci_limites_departements.geojson');
+    addOnSource('sous_prefs', 'geojson', 'dataFiles/geojson/sub_prefecture_limites2023.geojson');
+    addOnSource('departements', 'geojson', 'dataFiles/geojson/department_limites2023.geojson');
     addOnSource('regions', 'geojson', 'dataFiles/geojson/region_limites2023.geojson');
     addOnSource('districts', 'geojson', 'dataFiles/geojson/district_limites2023.geojson');
     addOnSource('states', 'geojson', 'dataFiles/geojson/ci_limites_states.geojson');
@@ -462,7 +462,7 @@ map.on('load', () => {
     addOnCircleLayerLocalisation('sdata', 'screendata', 'black');
 
     addOnSource('alldata', 'geojson', 'dataFiles/geojson/all_data2023.geojson');
-    addOnCircleLayer('adata', 'alldata', '#00b09b');
+    addOnCircleLayerWithFilter('adata', 'alldata', '#00b09b',[">=", ['get', 'popCov'], 1]);
     layerVisible.push('adata');
 
 
@@ -529,13 +529,13 @@ map.on('load', () => {
 
 
     //Ajout des localité non couvertes
-    addOnSource('nodata', 'geojson', 'dataFiles/geojson/nodata.geojson');
-    addOnCircleLayer('nodata', 'nodata', 'red');
+    // addOnSource('nodata', 'geojson', 'dataFiles/geojson/nodata.geojson');
+    addOnCircleLayerWithFilter('nodata', 'alldata', 'red',["==", ['get', 'popCov'], 0]);
     layerVisible.push('nodata');
 
 
-    addOnSource('areawhitedata', 'geojson', 'dataFiles/geojson/dataWhiteArea.geojson');
-    addOnCircleLayerWhite('awdata', 'areawhitedata');
+    // addOnSource('areawhitedata', 'geojson', 'dataFiles/geojson/dataWhiteArea.geojson');
+    addOnCircleLayerWithFilter('awdata', 'alldata',["==", ['get', 'cov2G'], 0]);
     layerVisible.push('awdata');
 
     //Ajout des antennes
