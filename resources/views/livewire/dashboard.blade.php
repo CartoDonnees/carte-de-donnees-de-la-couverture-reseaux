@@ -179,6 +179,10 @@
         padding: 2px;
     }
 
+    .text-sm-custom{
+        font-size: 9px
+    }
+
     #maps {
         height: 100%;
         width: 100%;
@@ -211,94 +215,88 @@
         }
     }
 </style>
+
+<style>
+.souce_data{
+    height: 8%;
+    width: 25%;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    margin: auto;
+    background-color: rgba(39, 38, 38, 0.5);
+    /* text-align: center; */
+    color: white;
+    padding: 2px;
+}
+
+@media only screen and (max-width: 998px) {
+
+    .souce_data {
+        width: 50%;
+    height: 15%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .souce_data {
+        width: 100%;
+    height: 10%;
+    }
+}
+</style>
 <div class="app-main__outer">
     <div class="app-main__inner p-0">
         <div id="maps"></div>
+        <div class="souce_data">
+            <div class="text-center">
+                <small><b><u><em>Source de données</em></u></b></small>
+            </div>
+            <div>
+                <small><b>* Données de couverture:</b> déclarration des opérateurs</small>
+            </div>
+            <div>
+                <small><b>* Effectif de la population:</b> RGPH 2014, INS</small>
+            </div>
+        </div>
         <div class="legend">
-            <!-- <table class="" style="width: 99%">
-                <tbody>
-                    <tr>
-                        <td class="pr-4">
-                            <small class="d-inline"><em>mise à jour le 19/07/2022 </em></small> <br>
-                        </td>
-                        <td class="pr-4">
-                            <img src="../images/operateurs/alldata.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Localité couverte</em></small>
-                        </td>
-                        <td class="pr-4">
-                            <img src="../images/operateurs/nodata.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Localité non couverte</em></small>
-                        </td>
-                        <td class="pr-4">
-                            <img src="../images/operateurs/whitearea.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Zone blanche</em></small>
-                        </td>
-                        <td class="pr-2">
-                            <div class="row">
-                                <div class="col-md-4 ">
-                                    <img src="../images/operateurs/cercle-orange.png" class="d-inline " alt="" style="height: 15px; width:15px">
-                                    <div class="d-inline">
-                                        <small class=""><em>Couverture Orange</em></small>
-                                    </div>
-                                    <img src="../images/operateurs/orange.png" class="d-inline" alt="" style="height: 15px; width:15px;">
-
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="../images/operateurs/cercle-mtn.png" class="d-inline" alt="" style="height: 15px; width:15px">
-                                    <div class="d-inline">
-                                        <small class=""><em>Couverture MTN</em></small>
-                                    </div>
-                                    <img src="../images/operateurs/mtn.png" class="d-inline" alt="" style="height: 15px; width:15px;">
-                                </div>
-                                <div class="col-md-4">
-                                    <img src="../images/operateurs/cercle-moov.png" class="d-inline" alt="" style="height: 15px; width:15px">
-                                    <div class="d-inline">
-                                        <small class=""><em>Couverture Moov</em></small>
-                                    </div>
-                                    <img src="../images/operateurs/moov.png" class="d-inline" alt="" style="height: 15px; width:15px;">
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table> -->
             <table class="w-100" style="">
                 <tbody>
                     <tr>
-                        <td class="pr-2">
-                            <small class="d-inline"><em>Mis à jour le 31/12/2023</em></small> <br>
+                        <td class="pr-1">
+                            <small class="d-inline text-sm-custom"><em>Mise à jour le 31/12/2023</em></small> <br>
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/area.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Localité</em></small>
+                        <td class="pr-1">
+                            <img src="../images/operateurs/area.png" class="d-inline mr-1" alt="" style="height: 12px;">
+                            <small class="d-inline text-sm-custom"><em>Localité</em></small>
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/alldata.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Localité couverte</em></small>
+                        <td class="pr-1">
+                            <img src="../images/operateurs/alldata.png" class="d-inline mr-1" alt="" style="height: 12px;">
+                            <small class="d-inline text-sm-custom"><em>Localité couverte</em></small>
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/nodata.png" class="d-inline mr-1" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Localité non couverte</em></small>
+                        <td class="pr-1">
+                            <img src="../images/operateurs/nodata.png" class="d-inline mr-1" alt="" style="height: 12px;">
+                            <small class="d-inline text-sm-custom"><em>Localité non couverte</em></small>
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/whitearea.png" class="d-inline mr-1 rounded-circle border border-dark" alt="" style="height: 15px;">
-
-                            <small class="d-inline"><em>Localité blanche</em></small>
+                        <td class="pr-1">
+                            <img src="../images/operateurs/whitearea.png" class="d-inline mr-1 rounded-circle border border-dark" alt="" style="height:12px;">
+                            <small class="d-inline text-sm-custom"><em>Localité blanche</em></small>
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/cercle-orange.png" class="d-inline " alt="" style="height: 15px">
-                            <small class="d-inline"><em>Couverture Orange</em></small>
-                            <img src="../images/operateurs/orange.png" class="d-inline" alt="" style="height: 15px">
+                        <td class="pr-1">
+                            <img src="../images/operateurs/cercle-orange.png" class="d-inline " alt="" style="height: 12px">
+                            <small class="d-inline text-sm-custom"><em>Couverture Orange</em></small>
+                            <img src="../images/operateurs/orange.png" class="d-inline" alt="" style="height: 12px">
                         </td>
-                        <td class="pr-2">
-                            <img src="../images/operateurs/cercle-mtn.png" class="d-inline" alt="" style="height: 15px;">
-                            <small class="d-inline"><em>Couverture MTN</em></small>
-                            <img src="../images/operateurs/mtn.png" class="d-inline" alt="" style="height: 15px;">
+                        <td class="pr-1">
+                            <img src="../images/operateurs/cercle-mtn.png" class="d-inline" alt="" style="height: 12px;">
+                            <small class="d-inline text-sm-custom"><em>Couverture MTN</em></small>
+                            <img src="../images/operateurs/mtn.png" class="d-inline" alt="" style="height: 12px;">
                         </td>
-                        <td class=pr-2>
-                            <img src="../images/operateurs/cercle-moov.png" class="d-inline" alt="" style="height: 15px">
-                            <small class="d-inline"><em>Couverture Moov</em></small>
-                            <img src="../images/operateurs/moov.png" class="d-inline" alt="" style="height: 15px">
+                        <td class=pr-1>
+                            <img src="../images/operateurs/cercle-moov.png" class="d-inline" alt="" style="height: 12px">
+                            <small class="d-inline text-sm-custom"><em>Couverture Moov</em></small>
+                            <img src="../images/operateurs/moov.png" class="d-inline" alt="" style="height: 12px">
                         </td>
                         <!-- <td class="pr-2">
                             <div class="row">
@@ -370,9 +368,6 @@
             ctxc.fill();
             ctxc.closePath();
         </script>
-
-
-
         <style>
             /* width */
             ::-webkit-scrollbar {

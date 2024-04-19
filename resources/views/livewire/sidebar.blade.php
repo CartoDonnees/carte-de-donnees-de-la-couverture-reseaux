@@ -81,7 +81,7 @@
                             <div id="operat">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="text-center" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Orange">
+                                        <div class="form-group text-center m-0 p-0" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Orange">
                                             <label for="orangeop">
                                                 <img src="../images/operateurs/orange.png" alt="" style="height: 20px; margin:auto">
                                             </label>
@@ -89,8 +89,8 @@
                                             <label id="lbor" for="orangeop"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group text-center" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Mtn">
+                                    <div class="col-md-4 ">
+                                        <div class="form-group text-center m-0 p-0" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Mtn">
                                             <label for="mtnop">
                                                 <img src="../images/operateurs/mtn.png" alt="" style="height: 20px; margin:auto">
                                             </label>
@@ -98,8 +98,8 @@
                                             <label id="lbmt" for="mtnop"></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group text-center" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Moov">
+                                    <div class="col-md-4 ">
+                                        <div class="form-group text-center m-0 p-0" data-toggle="tooltip" data-placement="top" title="Afficher la couverture Moov">
                                             <label for="moovop">
                                                 <img src="../images/operateurs/moov.png" alt="" style="height: 20px; margin:auto">
                                             </label>
@@ -150,14 +150,54 @@
                                 <div class="text-center text-secondary">
                                     <b class="text-primary">Statistiques générales</b>
                                 </div>
-                                <div class="p-2 bg-light">
+                                <div class="p-2">
                                     <div id="ttLoc">
-                                        <small><b>Total localités :</b> 0000000</small>
+                                        <small>Total des localités :</small>
                                     </div>
                                     <div id="ttPop">
-                                        <small><b>Total population :</b> </small>
+                                        <small>Total de la population : </small>
                                     </div>
                                 </div>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col" class="text-center p-0"></th>
+                                        <th scope="col" class="text-center p-0"><small>Localités couvertes</small></th>
+                                        <th scope="col" class="text-center p-0"><small>Population couverte</small></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row" rowspan="2" class="text-center p-0"><small>2G</small></th>
+                                        <td id="l_2G" class="text-center p-0"><small></small></td>
+                                        <td id="p_2G" class="text-center p-0"><small></small> </td>
+                                      </tr>
+                                      <tr>
+                                        <td id='pl_2G' class="text-center p-0"><small></small></td>
+                                        <td id="pp_2G" class="text-center p-0"><small></small></td>
+                                      </tr>
+
+                                      <tr class="" style="border-top: 1.5px solid rgb(214, 213, 213)">
+                                        <th scope="row" rowspan="2" class="text-center p-0"><small>3G</small></th>
+                                        <td id="l_3G" class="text-center p-0"><small></small></td>
+                                        <td id="p_3G" class="text-center p-0"><small></small> </td>
+                                      </tr>
+                                      <tr>
+                                        <td id='pl_3G' class="text-center p-0"><small></small></td>
+                                        <td id="pp_3G" class="text-center p-0"><small></small></td>
+                                      </tr>
+
+                                      <tr class="" style="border-top: 1.5px solid rgb(214, 213, 213)">
+                                        <th scope="row" rowspan="2" class="text-center p-0"><small>4G</small></th>
+                                        <td id="l_4G" class="text-center p-0"><small></small></td>
+                                        <td id="p_4G" class="text-center p-0"><small></small> </td>
+                                      </tr>
+                                      <tr>
+                                        <td id='pl_4G' class="text-center p-0"><small></small></td>
+                                        <td id="pp_4G" class="text-center p-0"><small></small></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                                 <h5 class="text-center" style="font-size:12px"><b>Localités couvertes par
                                         technologie</b></h5>
                                 <div id="nb_locss" class="text-center"></div>
@@ -178,10 +218,26 @@
                                 </div>
                                 <script>
                                     setTimeout(() => {
-                                        document.getElementById('nb_locss').innerHTML = '<small>Nombre : <b class="text-primary">' + couvTotLoc + '</b></small>'
-                                        document.getElementById('nb_popss').innerHTML = '<small>Effectif: <b class="text-primary">' + couvTotpop + '</b></small>'
+                                        document.getElementById('nb_locss').innerHTML = '<small>Nombre : <b class="text-primary">' + couvTotLoc + ' => '+((couvTotLoc*100) / nbLoc).toFixed(2) +'% </b></small>'
+                                        document.getElementById('nb_popss').innerHTML = '<small>Effectif: <b class="text-primary">' + couvTotpop + ' => '+((couvTotpop*100) / pops).toFixed(2)+'%</b></small>'
                                         document.getElementById('ttLoc').innerHTML = '<small>Total des localités : <b class="text-success">' + nbLoc + '</b></small>'
-                                        document.getElementById('ttPop').innerHTML = '<small>Total de population : <b class="text-success">' + pops + '</b></small>'
+                                        document.getElementById('ttPop').innerHTML = '<small>Total de la population : <b class="text-success">' + pops + '</b></small>'
+
+                                        document.getElementById('l_2G').innerHTML = '<small><b class="text-center">' + nbLoc2G + '</b></small>'
+                                        document.getElementById('l_3G').innerHTML = '<small><b class="text-center">' + nbLoc3G + '</b></small>'
+                                        document.getElementById('l_4G').innerHTML = '<small><b class="text-center">' + nbLoc4G + '</b></small>'
+
+                                        document.getElementById('p_2G').innerHTML = '<small><b class="text-center">' + po2G + '</b></small>'
+                                        document.getElementById('p_3G').innerHTML = '<small><b class="text-center">' + po3G + '</b></small>'
+                                        document.getElementById('p_4G').innerHTML = '<small><b class="text-center">' + po4G + '</b></small>'
+
+                                        document.getElementById('pl_2G').innerHTML = '<small><b class="text-center">' + ((nbLoc2G*100) / nbLoc).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pl_3G').innerHTML = '<small><b class="text-center">' + ((nbLoc3G*100) / nbLoc).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pl_4G').innerHTML = '<small><b class="text-center">' + ((nbLoc4G*100) / nbLoc).toFixed(2) + '%</b></small>'
+
+                                        document.getElementById('pp_2G').innerHTML = '<small><b class="text-center">' + ((nbLoc2G*100) / nbLoc).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pp_3G').innerHTML = '<small><b class="text-center">' + ((nbLoc3G*100) / nbLoc).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pp_4G').innerHTML = '<small><b class="text-center">' + ((nbLoc4G*100) / nbLoc).toFixed(2) + '%</b></small>'
                                     }, 2000);
                                 </script>
                             </div>
