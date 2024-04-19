@@ -33,17 +33,17 @@
         <div class="bg-secondary" style="height: 7px !important;">
         </div>
         <div class="app-sidebar__inner" id="side_init">
-            <ul class="vertical-nav-menu">
-                <li class="app-sidebar__heading">
-                <li class="mm-active">
+            <ul class="vertical-nav-menu pl-0">
+                <li class="app-sidebar__heading pl-0">
+                <li class="mm-active pl-0">
                     <a href="javascript:void()" class="text-primary p-0"><i class="fas fa-project-diagram mr-2"></i>COUVERTURE RESEAU
                         <i class="fas fa-chevron-right ml-2"></i>
                     </a>
                     <ul>
                         <li>
-                            <a href="javascript:void(0)" class="mm-active mt-2" onclick="showTpCouv('st_couv')">
-                                <i class="fas fa-satellite-dish mr-2"></i>Couverture des localités
-                                <i class="fas fa-chevron-right ml-2"></i>
+                            <a href="javascript:void(0)" class="mm-active mt-2 pl-2" onclick="showTpCouv('st_couv')">
+                                <i class="fas fa-satellite-dish mr-1"></i>Couverture des localités
+                                <i class="fas fa-chevron-right"></i>
                             </a>
 
                             <div class="" id="st_couv">
@@ -74,7 +74,7 @@
                                 <li>
                                 </li>
                             </ul> --}}
-                            <a class="mm-active mt-2" onclick="showTpCouv('operat')">
+                            <a class="mm-active mt-2 pl-2" onclick="showTpCouv('operat')">
                                 <i class="fas fa-satellite-dish mr-2"></i>Opérateurs
                                 <i class="fas fa-chevron-right ml-2"></i>
                             </a>
@@ -111,7 +111,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="javascript:void()" class="mm-active" onclick="showTpCouv('techno')">
+                            <a href="javascript:void()" class="mm-active pl-2" onclick="showTpCouv('techno')">
                                 <i class="fas fa-microchip mr-2"></i>Technologies
                                 <i class="fas fa-chevron-right ml-2"></i>
                             </a>
@@ -142,7 +142,7 @@
                             </div>
                         </li>
                         <li class="mb-2">
-                            <a href="javascript:void()" class="mm-active mt-2 mb-1" onclick="showTpCouv('stats')">
+                            <a href="javascript:void()" class="mm-active mt-2 mb-1 pl-2" onclick="showTpCouv('stats')">
                                 <i class="fas fa-chart-pie mr-2"></i>Statistiques
                                 <i class="fas fa-chevron-right ml-2"></i>
                             </a>
@@ -259,7 +259,7 @@
                 </li>
                 </li>
                 <li>
-                    <a href="#side_init" class="text-primary p-0">
+                    <a href="#side_init" class="text-primary p-0 ">
                         <i class="fa-solid fa-tower-broadcast mr-2"></i>INFRASTRUCTURES
                         <i class="fas fa-chevron-right ml-2"></i>
                     </a>
