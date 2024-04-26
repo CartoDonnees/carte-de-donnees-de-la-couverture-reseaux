@@ -1,6 +1,6 @@
 var pops = 22671331;
 
-var couvTotpop = 22451411;
+var couvTotpop = 22374680;
 var couvTotLoc = 8067;
 var nbLoc = 8518
 
@@ -27,7 +27,7 @@ var nbLocMo4G = 741;
 
 
 
-var po2G = 22451411;
+var po2G = 22374680;
 var po3G = 22250811;
 var po4G = 20751100;
 

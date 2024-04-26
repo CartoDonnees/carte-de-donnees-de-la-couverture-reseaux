@@ -235,9 +235,9 @@
                                         document.getElementById('pl_3G').innerHTML = '<small><b class="text-center">' + ((nbLoc3G*100) / nbLoc).toFixed(2) + '%</b></small>'
                                         document.getElementById('pl_4G').innerHTML = '<small><b class="text-center">' + ((nbLoc4G*100) / nbLoc).toFixed(2) + '%</b></small>'
 
-                                        document.getElementById('pp_2G').innerHTML = '<small><b class="text-center">' + ((nbLoc2G*100) / nbLoc).toFixed(2) + '%</b></small>'
-                                        document.getElementById('pp_3G').innerHTML = '<small><b class="text-center">' + ((nbLoc3G*100) / nbLoc).toFixed(2) + '%</b></small>'
-                                        document.getElementById('pp_4G').innerHTML = '<small><b class="text-center">' + ((nbLoc4G*100) / nbLoc).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pp_2G').innerHTML = '<small><b class="text-center">' + ((po2G*100) / pops).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pp_3G').innerHTML = '<small><b class="text-center">' + ((po3G*100) / pops).toFixed(2) + '%</b></small>'
+                                        document.getElementById('pp_4G').innerHTML = '<small><b class="text-center">' + ((po4G*100) / pops).toFixed(2) + '%</b></small>'
                                     }, 2000);
                                 </script>
                             </div>
