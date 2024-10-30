@@ -1,0 +1,23 @@
+var operateurs = {
+    orange:{
+        CODE:1,
+        label:"Orange",
+        couleurs:{
+            default:"#FF8C00",
+        }
+    },
+    mtn:{
+        CODE:2,
+        label:"Mtn",
+        couleurs:{
+            default:"#FFD700",
+        }
+    },
+    moov:{
+        CODE:3,
+        label:"Moov",
+        couleurs:{
+            default:"#1E90FF",
+        }
+    },
+}

@@ -1,0 +1,638 @@
+{"type": "FeatureCollection","features": [{"type": "Feature","geometry":{"coordinates":[-4.15296,5.31229],"type": "Point"},"properties":{
+    "code_loc":"C0001"
+    ,"localite":"ABADJI-BIMBRESSO"
+    ,"sous_prefect":"SONGON"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":2010
+    ,"popCov":2010
+    ,"pop2G":2010,"pop3G":2010,"pop4G":2010,"popData":0,"popTel":0
+    ,"pop2gOr":2010,"pop2gMtn":2010,"pop2gMoov":2010,"pop3gOr":2010,"pop3gMtn":2010,"pop3gMoov":2010,"pop3gMoov":2010,"pop4gMtn":2010,"pop4gMoov":2010,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":1},{"type": "Feature","geometry":{"coordinates":[-4.14759,5.30941],"type": "Point"},"properties":{
+    "code_loc":"C0002"
+    ,"localite":"ABADJIN-DOUME"
+    ,"sous_prefect":"SONGON"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":1428
+    ,"popCov":1428
+    ,"pop2G":1428,"pop3G":1428,"pop4G":1428,"popData":0,"popTel":0
+    ,"pop2gOr":1428,"pop2gMtn":1428,"pop2gMoov":1428,"pop3gOr":1428,"pop3gMtn":1428,"pop3gMoov":1428,"pop3gMoov":1428,"pop4gMtn":1428,"pop4gMoov":1428,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":2},{"type": "Feature","geometry":{"coordinates":[-4.15224,5.32934],"type": "Point"},"properties":{
+    "code_loc":"C0003"
+    ,"localite":"ABADJIN-KOUTE"
+    ,"sous_prefect":"SONGON"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":3549
+    ,"popCov":3549
+    ,"pop2G":3549,"pop3G":3549,"pop4G":3549,"popData":0,"popTel":0
+    ,"pop2gOr":3549,"pop2gMtn":3549,"pop2gMoov":3549,"pop3gOr":3549,"pop3gMtn":3549,"pop3gMoov":3549,"pop3gMoov":3549,"pop4gMtn":3549,"pop4gMoov":3549,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":3},{"type": "Feature","geometry":{"coordinates":[-5.24315,6.67842],"type": "Point"},"properties":{
+    "code_loc":"C0004"
+    ,"localite":"ABAKRO"
+    ,"sous_prefect":"YAMOUSSOUKRO"
+    ,"departement":"YAMOUSSOUKRO"
+    ,"region":"DISTRICT AUTONOME DE YAMOUSSOUKRO"
+    ,"district":"DISTRICT AUTONOME DE YAMOUSSOUKRO"
+    ,"pop":666
+    ,"popCov":666
+    ,"pop2G":666,"pop3G":666,"pop4G":666,"popData":0,"popTel":0
+    ,"pop2gOr":666,"pop2gMtn":666,"pop2gMoov":666,"pop3gOr":666,"pop3gMtn":666,"pop3gMoov":0,"pop3gMoov":666,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":4},{"type": "Feature","geometry":{"coordinates":[-5.60321,5.99134],"type": "Point"},"properties":{
+    "code_loc":"C0005"
+    ,"localite":"ABATOULILIE"
+    ,"sous_prefect":"LAKOTA"
+    ,"departement":"LAKOTA"
+    ,"region":"GOH-DJIBOUA"
+    ,"district":"LOH-DJIBOUA"
+    ,"pop":923
+    ,"popCov":923
+    ,"pop2G":923,"pop3G":923,"pop4G":923,"popData":0,"popTel":0
+    ,"pop2gOr":923,"pop2gMtn":923,"pop2gMoov":923,"pop3gOr":923,"pop3gMtn":923,"pop3gMoov":0,"pop3gMoov":923,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":5},{"type": "Feature","geometry":{"coordinates":[-3.91719,5.32557],"type": "Point"},"properties":{
+    "code_loc":"C0006"
+    ,"localite":"ABATTA"
+    ,"sous_prefect":"BINGERVILLE"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":1626
+    ,"popCov":1626
+    ,"pop2G":1626,"pop3G":1626,"pop4G":1626,"popData":0,"popTel":0
+    ,"pop2gOr":1626,"pop2gMtn":1626,"pop2gMoov":1626,"pop3gOr":1626,"pop3gMtn":1626,"pop3gMoov":1626,"pop3gMoov":1626,"pop4gMtn":1626,"pop4gMoov":1626,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":6},{"type": "Feature","geometry":{"coordinates":[-5.57208,7.59121],"type": "Point"},"properties":{
+    "code_loc":"C0007"
+    ,"localite":"ABAYANSI"
+    ,"sous_prefect":"BEOUMI"
+    ,"departement":"BEOUMI"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":402
+    ,"popCov":402
+    ,"pop2G":402,"pop3G":402,"pop4G":402,"popData":0,"popTel":0
+    ,"pop2gOr":402,"pop2gMtn":402,"pop2gMoov":402,"pop3gOr":402,"pop3gMtn":402,"pop3gMoov":0,"pop3gMoov":402,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":7},{"type": "Feature","geometry":{"coordinates":[-4.00108,5.63466],"type": "Point"},"properties":{
+    "code_loc":"C0008"
+    ,"localite":"ABBEBEGNINI"
+    ,"sous_prefect":"AZAGUIE"
+    ,"departement":"AGBOVILLE"
+    ,"region":"LAGUNES"
+    ,"district":"AGNEBY-TIASSA"
+    ,"pop":2627
+    ,"popCov":2627
+    ,"pop2G":2627,"pop3G":2627,"pop4G":2627,"popData":0,"popTel":0
+    ,"pop2gOr":2627,"pop2gMtn":2627,"pop2gMoov":2627,"pop3gOr":2627,"pop3gMtn":2627,"pop3gMoov":0,"pop3gMoov":2627,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":8},{"type": "Feature","geometry":{"coordinates":[-4.16315,7.16089],"type": "Point"},"properties":{
+    "code_loc":"C0009"
+    ,"localite":"ABBOKENEGNY"
+    ,"sous_prefect":"DAOUKRO"
+    ,"departement":"DAOUKRO"
+    ,"region":"LACS"
+    ,"district":"IFFOU"
+    ,"pop":528
+    ,"popCov":528
+    ,"pop2G":528,"pop3G":528,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":528,"pop2gMtn":528,"pop2gMoov":0,"pop3gOr":528,"pop3gMtn":528,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":9},{"type": "Feature","geometry":{"coordinates":[-5.331,7.20665],"type": "Point"},"properties":{
+    "code_loc":"C0010"
+    ,"localite":"ABE"
+    ,"sous_prefect":"MOLONOU"
+    ,"departement":"TIEBISSOU"
+    ,"region":"LACS"
+    ,"district":"BELIER"
+    ,"pop":759
+    ,"popCov":759
+    ,"pop2G":759,"pop3G":759,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":0,"pop2gMtn":759,"pop2gMoov":0,"pop3gOr":0,"pop3gMtn":759,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":0,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":0,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":10},{"type": "Feature","geometry":{"coordinates":[-4.23309,6.97364],"type": "Point"},"properties":{
+    "code_loc":"C0011"
+    ,"localite":"ABEANOU"
+    ,"sous_prefect":"KOUADIOBLEKRO"
+    ,"departement":"BOCANDA"
+    ,"region":"LACS"
+    ,"district":"N'ZI"
+    ,"pop":3944
+    ,"popCov":3944
+    ,"pop2G":3944,"pop3G":3944,"pop4G":3944,"popData":0,"popTel":0
+    ,"pop2gOr":3944,"pop2gMtn":3944,"pop2gMoov":0,"pop3gOr":3944,"pop3gMtn":3944,"pop3gMoov":0,"pop3gMoov":3944,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":11},{"type": "Feature","geometry":{"coordinates":[-4.06523,7.68347],"type": "Point"},"properties":{
+    "code_loc":"C0012"
+    ,"localite":"ABEDENI"
+    ,"sous_prefect":"PRIKRO"
+    ,"departement":"PRIKRO"
+    ,"region":"LACS"
+    ,"district":"IFFOU"
+    ,"pop":1323
+    ,"popCov":1323
+    ,"pop2G":1323,"pop3G":1323,"pop4G":1323,"popData":0,"popTel":0
+    ,"pop2gOr":1323,"pop2gMtn":1323,"pop2gMoov":1323,"pop3gOr":1323,"pop3gMtn":1323,"pop3gMoov":0,"pop3gMoov":1323,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":12},{"type": "Feature","geometry":{"coordinates":[-2.77092,8.10277],"type": "Point"},"properties":{
+    "code_loc":"C0013"
+    ,"localite":"ABEMA"
+    ,"sous_prefect":"BONDOUKOU"
+    ,"departement":"BONDOUKOU"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":566
+    ,"popCov":566
+    ,"pop2G":566,"pop3G":566,"pop4G":566,"popData":0,"popTel":0
+    ,"pop2gOr":566,"pop2gMtn":566,"pop2gMoov":566,"pop3gOr":566,"pop3gMtn":566,"pop3gMoov":0,"pop3gMoov":566,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":13},{"type": "Feature","geometry":{"coordinates":[-3.49676,6.72836],"type": "Point"},"properties":{
+    "code_loc":"C0014"
+    ,"localite":"ABENGOUROU"
+    ,"sous_prefect":"ABENGOUROU"
+    ,"departement":"ABENGOUROU"
+    ,"region":"COMOE"
+    ,"district":"INDENIE-DJUABLIN"
+    ,"pop":100910
+    ,"popCov":100910
+    ,"pop2G":100910,"pop3G":100910,"pop4G":100910,"popData":0,"popTel":0
+    ,"pop2gOr":100910,"pop2gMtn":100910,"pop2gMoov":100910,"pop3gOr":100910,"pop3gMtn":100910,"pop3gMoov":100910,"pop3gMoov":100910,"pop4gMtn":100910,"pop4gMoov":100910,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":14},{"type": "Feature","geometry":{"coordinates":[-4.74,5.91],"type": "Point"},"properties":{
+    "code_loc":"C0015"
+    ,"localite":"ABEVE/ABEYE"
+    ,"sous_prefect":"N'DOUCI"
+    ,"departement":"TIASSALE"
+    ,"region":"LAGUNES"
+    ,"district":"AGNEBY-TIASSA"
+    ,"pop":2119
+    ,"popCov":2119
+    ,"pop2G":2119,"pop3G":2119,"pop4G":2119,"popData":0,"popTel":0
+    ,"pop2gOr":2119,"pop2gMtn":2119,"pop2gMoov":2119,"pop3gOr":2119,"pop3gMtn":2119,"pop3gMoov":0,"pop3gMoov":2119,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":15},{"type": "Feature","geometry":{"coordinates":[-5.34,7.85],"type": "Point"},"properties":{
+    "code_loc":"C0016"
+    ,"localite":"ABEY-AHOUGNASSOU"
+    ,"sous_prefect":"BOTRO"
+    ,"departement":"BOTRO"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":202
+    ,"popCov":202
+    ,"pop2G":202,"pop3G":202,"pop4G":202,"popData":0,"popTel":0
+    ,"pop2gOr":202,"pop2gMtn":202,"pop2gMoov":202,"pop3gOr":202,"pop3gMtn":202,"pop3gMoov":202,"pop3gMoov":202,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":16},{"type": "Feature","geometry":{"coordinates":[-5.36,7.84],"type": "Point"},"properties":{
+    "code_loc":"C0017"
+    ,"localite":"ABEY-KOUADIOKRO"
+    ,"sous_prefect":"BOTRO"
+    ,"departement":"BOTRO"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":291
+    ,"popCov":291
+    ,"pop2G":291,"pop3G":291,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":291,"pop2gMtn":291,"pop2gMoov":291,"pop3gOr":291,"pop3gMtn":291,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":17},{"type": "Feature","geometry":{"coordinates":[-4.32072,5.38816],"type": "Point"},"properties":{
+    "code_loc":"C0018"
+    ,"localite":"ABIATE 2"
+    ,"sous_prefect":"SONGON"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":1426
+    ,"popCov":1426
+    ,"pop2G":1426,"pop3G":1426,"pop4G":1426,"popData":0,"popTel":0
+    ,"pop2gOr":1426,"pop2gMtn":1426,"pop2gMoov":1426,"pop3gOr":1426,"pop3gMtn":1426,"pop3gMoov":0,"pop3gMoov":1426,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":18},{"type": "Feature","geometry":{"coordinates":[-3.17097,5.28874],"type": "Point"},"properties":{
+    "code_loc":"C0019"
+    ,"localite":"ABIATY"
+    ,"sous_prefect":"ETUEBOUE"
+    ,"departement":"ADIAKE"
+    ,"region":"COMOE"
+    ,"district":"SUD-COMOE"
+    ,"pop":1897
+    ,"popCov":1897
+    ,"pop2G":1897,"pop3G":1897,"pop4G":1897,"popData":0,"popTel":0
+    ,"pop2gOr":1897,"pop2gMtn":1897,"pop2gMoov":1897,"pop3gOr":1897,"pop3gMtn":1897,"pop3gMoov":1897,"pop3gMoov":1897,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":19},{"type": "Feature","geometry":{"coordinates":[-3.92618,5.86912],"type": "Point"},"properties":{
+    "code_loc":"C0020"
+    ,"localite":"ABIE"
+    ,"sous_prefect":"YAKASSE-ME"
+    ,"departement":"ADZOPE"
+    ,"region":"LAGUNES"
+    ,"district":"LA ME"
+    ,"pop":4864
+    ,"popCov":4864
+    ,"pop2G":4864,"pop3G":4864,"pop4G":4864,"popData":0,"popTel":0
+    ,"pop2gOr":4864,"pop2gMtn":4864,"pop2gMoov":4864,"pop3gOr":4864,"pop3gMtn":4864,"pop3gMoov":4864,"pop3gMoov":4864,"pop4gMtn":0,"pop4gMoov":4864,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":20},{"type": "Feature","geometry":{"coordinates":[-4.53125,5.55345],"type": "Point"},"properties":{
+    "code_loc":"C0021"
+    ,"localite":"ABIEHOU"
+    ,"sous_prefect":"SIKENSI"
+    ,"departement":"SIKENSI"
+    ,"region":"LAGUNES"
+    ,"district":"AGNEBY-TIASSA"
+    ,"pop":1923
+    ,"popCov":1923
+    ,"pop2G":1923,"pop3G":1923,"pop4G":1923,"popData":0,"popTel":0
+    ,"pop2gOr":1923,"pop2gMtn":1923,"pop2gMoov":0,"pop3gOr":1923,"pop3gMtn":1923,"pop3gMoov":0,"pop3gMoov":1923,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":21},{"type": "Feature","geometry":{"coordinates":[-4.83283,6.69683],"type": "Point"},"properties":{
+    "code_loc":"C0022"
+    ,"localite":"ABIGUI"
+    ,"sous_prefect":"ABIGUI"
+    ,"departement":"DIMBOKRO"
+    ,"region":"LACS"
+    ,"district":"N'ZI"
+    ,"pop":2149
+    ,"popCov":0
+    ,"pop2G":0,"pop3G":0,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":0,"pop2gMtn":0,"pop2gMoov":0,"pop3gOr":0,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":0,"cov3G":0,"cov4G":0,"covData":0,"covTel":0
+    ,"covORANGE2G":0,"covMTN2G":0,"covMOOV2G":0,"covORANGE3G":0,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":22},{"type": "Feature","geometry":{"coordinates":[-5.01608,6.9424],"type": "Point"},"properties":{
+    "code_loc":"C0023"
+    ,"localite":"ABIGUI"
+    ,"sous_prefect":"YAKPABO-SAKASSOU"
+    ,"departement":"TIEBISSOU"
+    ,"region":"LACS"
+    ,"district":"BELIER"
+    ,"pop":331
+    ,"popCov":331
+    ,"pop2G":331,"pop3G":331,"pop4G":331,"popData":0,"popTel":0
+    ,"pop2gOr":331,"pop2gMtn":331,"pop2gMoov":0,"pop3gOr":331,"pop3gMtn":331,"pop3gMoov":0,"pop3gMoov":331,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":23},{"type": "Feature","geometry":{"coordinates":[-5.4425,7.80999],"type": "Point"},"properties":{
+    "code_loc":"C0024"
+    ,"localite":"ABIKRO"
+    ,"sous_prefect":"BODOKRO"
+    ,"departement":"BEOUMI"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":675
+    ,"popCov":675
+    ,"pop2G":675,"pop3G":675,"pop4G":675,"popData":0,"popTel":0
+    ,"pop2gOr":675,"pop2gMtn":675,"pop2gMoov":675,"pop3gOr":675,"pop3gMtn":675,"pop3gMoov":0,"pop3gMoov":675,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":24},{"type": "Feature","geometry":{"coordinates":[-5.06869,7.50897],"type": "Point"},"properties":{
+    "code_loc":"C0025"
+    ,"localite":"ABLEKRO"
+    ,"sous_prefect":"DJEBONOUA"
+    ,"departement":"BOUAKE"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":179
+    ,"popCov":179
+    ,"pop2G":179,"pop3G":179,"pop4G":179,"popData":0,"popTel":0
+    ,"pop2gOr":179,"pop2gMtn":179,"pop2gMoov":179,"pop3gOr":179,"pop3gMtn":179,"pop3gMoov":179,"pop3gMoov":179,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":25},{"type": "Feature","geometry":{"coordinates":[-5.01,6.59],"type": "Point"},"properties":{
+    "code_loc":"C0026"
+    ,"localite":"ABLI-ALOUKRO"
+    ,"sous_prefect":"TOUMODI"
+    ,"departement":"TOUMODI"
+    ,"region":"LACS"
+    ,"district":"BELIER"
+    ,"pop":773
+    ,"popCov":773
+    ,"pop2G":773,"pop3G":773,"pop4G":773,"popData":0,"popTel":0
+    ,"pop2gOr":773,"pop2gMtn":773,"pop2gMoov":773,"pop3gOr":773,"pop3gMtn":773,"pop3gMoov":773,"pop3gMoov":773,"pop4gMtn":0,"pop4gMoov":773,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":26},{"type": "Feature","geometry":{"coordinates":[-5,6.6],"type": "Point"},"properties":{
+    "code_loc":"C0027"
+    ,"localite":"ABLI-BONIKRO"
+    ,"sous_prefect":"TOUMODI"
+    ,"departement":"TOUMODI"
+    ,"region":"LACS"
+    ,"district":"BELIER"
+    ,"pop":648
+    ,"popCov":648
+    ,"pop2G":648,"pop3G":648,"pop4G":648,"popData":0,"popTel":0
+    ,"pop2gOr":648,"pop2gMtn":648,"pop2gMoov":648,"pop3gOr":648,"pop3gMtn":648,"pop3gMoov":648,"pop3gMoov":648,"pop4gMtn":0,"pop4gMoov":648,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":27},{"type": "Feature","geometry":{"coordinates":[-4.98,7.09],"type": "Point"},"properties":{
+    "code_loc":"C0028"
+    ,"localite":"ABOBLAKRO"
+    ,"sous_prefect":"LOMOKANKRO"
+    ,"departement":"TIEBISSOU"
+    ,"region":"LACS"
+    ,"district":"BELIER"
+    ,"pop":614
+    ,"popCov":614
+    ,"pop2G":614,"pop3G":614,"pop4G":614,"popData":0,"popTel":0
+    ,"pop2gOr":614,"pop2gMtn":614,"pop2gMoov":614,"pop3gOr":614,"pop3gMtn":614,"pop3gMoov":0,"pop3gMoov":614,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":28},{"type": "Feature","geometry":{"coordinates":[-4.01585,5.43515],"type": "Point"},"properties":{
+    "code_loc":"C0029"
+    ,"localite":"ABOBO"
+    ,"sous_prefect":"ABIDJAN"
+    ,"departement":"ABIDJAN"
+    ,"region":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"district":"DISTRICT AUTONOME D'ABIDJAN"
+    ,"pop":1030658
+    ,"popCov":1030658
+    ,"pop2G":1030658,"pop3G":1030658,"pop4G":1030658,"popData":0,"popTel":0
+    ,"pop2gOr":1030658,"pop2gMtn":1030658,"pop2gMoov":1030658,"pop3gOr":1030658,"pop3gMtn":1030658,"pop3gMoov":1030658,"pop3gMoov":1030658,"pop4gMtn":1030658,"pop4gMoov":1030658,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":29},{"type": "Feature","geometry":{"coordinates":[-6.45,5.36],"type": "Point"},"properties":{
+    "code_loc":"C0030"
+    ,"localite":"ABODAGUI"
+    ,"sous_prefect":"MEAGUI"
+    ,"departement":"MEAGUI"
+    ,"region":"BAS-SASSANDRA"
+    ,"district":"NAWA"
+    ,"pop":1402
+    ,"popCov":1402
+    ,"pop2G":1402,"pop3G":1402,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":0,"pop2gMtn":1402,"pop2gMoov":0,"pop3gOr":0,"pop3gMtn":1402,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":0,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":0,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":30},{"type": "Feature","geometry":{"coordinates":[-4.4423,7.19182],"type": "Point"},"properties":{
+    "code_loc":"C0031"
+    ,"localite":"ABOGNIKRO"
+    ,"sous_prefect":"BOCANDA"
+    ,"departement":"BOCANDA"
+    ,"region":"LACS"
+    ,"district":"N'ZI"
+    ,"pop":896
+    ,"popCov":896
+    ,"pop2G":896,"pop3G":896,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":896,"pop2gMtn":896,"pop2gMoov":0,"pop3gOr":896,"pop3gMtn":896,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":31},{"type": "Feature","geometry":{"coordinates":[-5.80567,5.97168],"type": "Point"},"properties":{
+    "code_loc":"C0032"
+    ,"localite":"ABOHIO"
+    ,"sous_prefect":"GNAGBODOUGNOA"
+    ,"departement":"GAGNOA"
+    ,"region":"GOH-DJIBOUA"
+    ,"district":"GOH"
+    ,"pop":406
+    ,"popCov":406
+    ,"pop2G":406,"pop3G":406,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":406,"pop2gMtn":406,"pop2gMoov":406,"pop3gOr":406,"pop3gMtn":406,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":32},{"type": "Feature","geometry":{"coordinates":[-3.20677,5.47457],"type": "Point"},"properties":{
+    "code_loc":"C0033"
+    ,"localite":"ABOISSO"
+    ,"sous_prefect":"ABOISSO"
+    ,"departement":"ABOISSO"
+    ,"region":"COMOE"
+    ,"district":"SUD-COMOE"
+    ,"pop":45688
+    ,"popCov":45688
+    ,"pop2G":45688,"pop3G":45688,"pop4G":45688,"popData":0,"popTel":0
+    ,"pop2gOr":45688,"pop2gMtn":45688,"pop2gMoov":45688,"pop3gOr":45688,"pop3gMtn":45688,"pop3gMoov":45688,"pop3gMoov":45688,"pop4gMtn":45688,"pop4gMoov":45688,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":33},{"type": "Feature","geometry":{"coordinates":[-3.40411,5.73533],"type": "Point"},"properties":{
+    "code_loc":"C0034"
+    ,"localite":"ABOISSO-COMOE"
+    ,"sous_prefect":"ABOISSO-COMOE"
+    ,"departement":"ALEPE"
+    ,"region":"LAGUNES"
+    ,"district":"LA ME"
+    ,"pop":15937
+    ,"popCov":15937
+    ,"pop2G":15937,"pop3G":15937,"pop4G":15937,"popData":0,"popTel":0
+    ,"pop2gOr":15937,"pop2gMtn":15937,"pop2gMoov":15937,"pop3gOr":15937,"pop3gMtn":15937,"pop3gMoov":15937,"pop3gMoov":15937,"pop4gMtn":15937,"pop4gMoov":15937,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":34},{"type": "Feature","geometry":{"coordinates":[-6.81,6.53],"type": "Point"},"properties":{
+    "code_loc":"C0035"
+    ,"localite":"ABOKA"
+    ,"sous_prefect":"IBOGUHE"
+    ,"departement":"ISSIA"
+    ,"region":"SASSANDRA-MARAHOUE"
+    ,"district":"HAUT-SASSANDRA"
+    ,"pop":12055
+    ,"popCov":12055
+    ,"pop2G":12055,"pop3G":12055,"pop4G":12055,"popData":0,"popTel":0
+    ,"pop2gOr":12055,"pop2gMtn":12055,"pop2gMoov":12055,"pop3gOr":12055,"pop3gMtn":12055,"pop3gMoov":12055,"pop3gMoov":12055,"pop4gMtn":0,"pop4gMoov":12055,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":35},{"type": "Feature","geometry":{"coordinates":[-3.59735,7.59969],"type": "Point"},"properties":{
+    "code_loc":"C0036"
+    ,"localite":"ABOKOSSO"
+    ,"sous_prefect":"BOAHIA"
+    ,"departement":"KOUN-FAO"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":599
+    ,"popCov":599
+    ,"pop2G":599,"pop3G":599,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":599,"pop2gMtn":0,"pop2gMoov":0,"pop3gOr":599,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":0,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":36},{"type": "Feature","geometry":{"coordinates":[-5.05,6.83],"type": "Point"},"properties":{
+    "code_loc":"C0037"
+    ,"localite":"ABOKOUAMEKRO"
+    ,"sous_prefect":"ATTIEGOUAKRO"
+    ,"departement":"ATTIEGOUAKRO"
+    ,"region":"DISTRICT AUTONOME DE YAMOUSSOUKRO"
+    ,"district":"DISTRICT AUTONOME DE YAMOUSSOUKRO"
+    ,"pop":873
+    ,"popCov":873
+    ,"pop2G":873,"pop3G":873,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":873,"pop2gMtn":873,"pop2gMoov":873,"pop3gOr":873,"pop3gMtn":873,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":37},{"type": "Feature","geometry":{"coordinates":[-4.7,7.17],"type": "Point"},"properties":{
+    "code_loc":"C0038"
+    ,"localite":"ABO-KOUASSIKRO"
+    ,"sous_prefect":"MEKRO"
+    ,"departement":"KOUASSI-KOUASSIKRO"
+    ,"region":"LACS"
+    ,"district":"N'ZI"
+    ,"pop":665
+    ,"popCov":665
+    ,"pop2G":665,"pop3G":665,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":665,"pop2gMtn":0,"pop2gMoov":0,"pop3gOr":665,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":0,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":38},{"type": "Feature","geometry":{"coordinates":[-3.13,7.71],"type": "Point"},"properties":{
+    "code_loc":"C0039"
+    ,"localite":"ABOKOUMA"
+    ,"sous_prefect":"TANDA"
+    ,"departement":"TANDA"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":1129
+    ,"popCov":1129
+    ,"pop2G":1129,"pop3G":1129,"pop4G":1129,"popData":0,"popTel":0
+    ,"pop2gOr":1129,"pop2gMtn":1129,"pop2gMoov":1129,"pop3gOr":1129,"pop3gMtn":1129,"pop3gMoov":0,"pop3gMoov":1129,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":39},{"type": "Feature","geometry":{"coordinates":[-2.98511,7.6468],"type": "Point"},"properties":{
+    "code_loc":"C0040"
+    ,"localite":"ABOKRO"
+    ,"sous_prefect":"ASSUEFRY"
+    ,"departement":"TRANSUA"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":394
+    ,"popCov":394
+    ,"pop2G":394,"pop3G":394,"pop4G":394,"popData":0,"popTel":0
+    ,"pop2gOr":394,"pop2gMtn":394,"pop2gMoov":394,"pop3gOr":394,"pop3gMtn":394,"pop3gMoov":394,"pop3gMoov":394,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":40},{"type": "Feature","geometry":{"coordinates":[-5.08056,7.91634],"type": "Point"},"properties":{
+    "code_loc":"C0041"
+    ,"localite":"ABOKRO"
+    ,"sous_prefect":"BOUAKE"
+    ,"departement":"BOUAKE"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":214
+    ,"popCov":214
+    ,"pop2G":214,"pop3G":214,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":214,"pop2gMtn":214,"pop2gMoov":214,"pop3gOr":214,"pop3gMtn":214,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":41},{"type": "Feature","geometry":{"coordinates":[-4.28657,7.46322],"type": "Point"},"properties":{
+    "code_loc":"C0042"
+    ,"localite":"ABOKRO"
+    ,"sous_prefect":"M'BAHIAKRO"
+    ,"departement":"M'BAHIAKRO"
+    ,"region":"LACS"
+    ,"district":"IFFOU"
+    ,"pop":683
+    ,"popCov":683
+    ,"pop2G":683,"pop3G":683,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":683,"pop2gMtn":0,"pop2gMoov":683,"pop3gOr":683,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":0,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":42},{"type": "Feature","geometry":{"coordinates":[-3.35929,7.51846],"type": "Point"},"properties":{
+    "code_loc":"C0043"
+    ,"localite":"ABOKRO-DAME"
+    ,"sous_prefect":"KOUN-FAO"
+    ,"departement":"KOUN-FAO"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":1005
+    ,"popCov":1005
+    ,"pop2G":1005,"pop3G":1005,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":1005,"pop2gMtn":1005,"pop2gMoov":1005,"pop3gOr":1005,"pop3gMtn":1005,"pop3gMoov":1005,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":43},{"type": "Feature","geometry":{"coordinates":[-5.25413,7.64106],"type": "Point"},"properties":{
+    "code_loc":"C0044"
+    ,"localite":"ABOLE KOUASSIKRO"
+    ,"sous_prefect":"LANGUIBONOU"
+    ,"departement":"BOTRO"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":326
+    ,"popCov":326
+    ,"pop2G":326,"pop3G":326,"pop4G":326,"popData":0,"popTel":0
+    ,"pop2gOr":326,"pop2gMtn":0,"pop2gMoov":326,"pop3gOr":326,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":326,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":0,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":44},{"type": "Feature","geometry":{"coordinates":[-5.33445,7.68257],"type": "Point"},"properties":{
+    "code_loc":"C0045"
+    ,"localite":"ABOLIKRO"
+    ,"sous_prefect":"LANGUIBONOU"
+    ,"departement":"BOTRO"
+    ,"region":"VALLEE DU BANDAMA"
+    ,"district":"GBEKE"
+    ,"pop":2736
+    ,"popCov":2736
+    ,"pop2G":2736,"pop3G":2736,"pop4G":2736,"popData":0,"popTel":0
+    ,"pop2gOr":2736,"pop2gMtn":2736,"pop2gMoov":2736,"pop3gOr":2736,"pop3gMtn":2736,"pop3gMoov":2736,"pop3gMoov":2736,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":45},{"type": "Feature","geometry":{"coordinates":[-3.54354,6.25065],"type": "Point"},"properties":{
+    "code_loc":"C0046"
+    ,"localite":"ABONGOUA"
+    ,"sous_prefect":"ABONGOUA"
+    ,"departement":"YAKASSE-ATTOBROU"
+    ,"region":"LAGUNES"
+    ,"district":"LA ME"
+    ,"pop":8373
+    ,"popCov":8373
+    ,"pop2G":8373,"pop3G":8373,"pop4G":8373,"popData":0,"popTel":0
+    ,"pop2gOr":8373,"pop2gMtn":8373,"pop2gMoov":8373,"pop3gOr":8373,"pop3gMtn":8373,"pop3gMoov":8373,"pop3gMoov":8373,"pop4gMtn":8373,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":1,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":46},{"type": "Feature","geometry":{"coordinates":[-4.10158,6.65387],"type": "Point"},"properties":{
+    "code_loc":"C0047"
+    ,"localite":"ABONGOUA"
+    ,"sous_prefect":"KOTOBI"
+    ,"departement":"ARRAH"
+    ,"region":"LACS"
+    ,"district":"MORONOU"
+    ,"pop":10408
+    ,"popCov":10408
+    ,"pop2G":10408,"pop3G":10408,"pop4G":10408,"popData":0,"popTel":0
+    ,"pop2gOr":10408,"pop2gMtn":10408,"pop2gMoov":10408,"pop3gOr":10408,"pop3gMtn":10408,"pop3gMoov":10408,"pop3gMoov":10408,"pop4gMtn":0,"pop4gMoov":10408,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":1,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":1,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":47},{"type": "Feature","geometry":{"coordinates":[-4.7,6.95],"type": "Point"},"properties":{
+    "code_loc":"C0048"
+    ,"localite":"ABO-NGUESSANKRO"
+    ,"sous_prefect":"BOCANDA"
+    ,"departement":"BOCANDA"
+    ,"region":"LACS"
+    ,"district":"N'ZI"
+    ,"pop":380
+    ,"popCov":380
+    ,"pop2G":380,"pop3G":380,"pop4G":0,"popData":0,"popTel":0
+    ,"pop2gOr":380,"pop2gMtn":0,"pop2gMoov":0,"pop3gOr":380,"pop3gMtn":0,"pop3gMoov":0,"pop3gMoov":0,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":0,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":0,"covMOOV2G":0,"covORANGE3G":1,"covMTN3G":0,"covMOOV3G":0,"covORANGE4G":0,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":48},{"type": "Feature","geometry":{"coordinates":[-3.41441,7.89819],"type": "Point"},"properties":{
+    "code_loc":"C0049"
+    ,"localite":"ABONGUI-MOROKRO"
+    ,"sous_prefect":"KOUASSI-DATEKRO"
+    ,"departement":"KOUN-FAO"
+    ,"region":"ZANZAN"
+    ,"district":"GONTOUGO"
+    ,"pop":649
+    ,"popCov":649
+    ,"pop2G":649,"pop3G":649,"pop4G":649,"popData":0,"popTel":0
+    ,"pop2gOr":649,"pop2gMtn":649,"pop2gMoov":649,"pop3gOr":649,"pop3gMtn":649,"pop3gMoov":0,"pop3gMoov":649,"pop4gMtn":0,"pop4gMoov":0,"popORANGEData":0,"popMTNData":0,"popMOOVData":0,"popORANGETel":0,"popMTNTel":0,"popMOOVTel":0
+    ,"cov2G":1,"cov3G":1,"cov4G":1,"covData":1,"covTel":1
+    ,"covORANGE2G":1,"covMTN2G":1,"covMOOV2G":1,"covORANGE3G":1,"covMTN3G":1,"covMOOV3G":0,"covORANGE4G":1,"covMTN4G":0,"covMOOV4G":0,"covORANGEData":0,"covMTNData":0,"covMOOVData":0,"covORANGETel":0,"covMTNTel":0,"covMOOVTel":0
+},"id":49}]}

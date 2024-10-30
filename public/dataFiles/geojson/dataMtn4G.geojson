@@ -1,0 +1,265 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "",
+                "localite": "",
+                "region": "",
+                "departement": "",
+                "sous_prefect": "",
+                "pop": 0,
+                "pop2gOr": 0,
+                "pop2gMtn": 0,
+                "pop2gMoov": 0,
+                "pop3gOr": 0,
+                "pop3gMtn": 0,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0001",
+                "localite": "ABADJI-BIMBRESSO",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 2010,
+                "pop2gOr": 2010,
+                "pop2gMtn": 2010,
+                "pop2gMoov": 2010,
+                "pop3gOr": 2010,
+                "pop3gMtn": 2010,
+                "pop3gMoov": 2010,
+                "pop4gOr": 2010,
+                "pop4gMtn": 2010,
+                "pop4gMoov": 2010
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.15446,
+                    5.31229
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0002",
+                "localite": "ABADJIN-DOUMÉ",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 1428,
+                "pop2gOr": 1428,
+                "pop2gMtn": 1428,
+                "pop2gMoov": 1428,
+                "pop3gOr": 1428,
+                "pop3gMtn": 1428,
+                "pop3gMoov": 1428,
+                "pop4gOr": 1428,
+                "pop4gMtn": 1428,
+                "pop4gMoov": 1428
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.14909,
+                    5.30941
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0003",
+                "localite": "ABADJIN-KOUTÉ",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 3549,
+                "pop2gOr": 3549,
+                "pop2gMtn": 3549,
+                "pop2gMoov": 3549,
+                "pop3gOr": 3549,
+                "pop3gMtn": 3549,
+                "pop3gMoov": 3549,
+                "pop4gOr": 3549,
+                "pop4gMtn": 3549,
+                "pop4gMoov": 3549
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.15374,
+                    5.32934
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0006",
+                "localite": "ABATTA",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "BINGERVILLE",
+                "pop": 1626,
+                "pop2gOr": 1626,
+                "pop2gMtn": 1626,
+                "pop2gMoov": 1626,
+                "pop3gOr": 1626,
+                "pop3gMtn": 1626,
+                "pop3gMoov": 1626,
+                "pop4gOr": 1626,
+                "pop4gMtn": 1626,
+                "pop4gMoov": 1626
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.91869,
+                    5.32557
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0014",
+                "localite": "ABENGOUROU",
+                "region": "INDENIE-DJUABLIN",
+                "departement": "ABENGOUROU",
+                "sous_prefect": "ABENGOUROU",
+                "pop": 100910,
+                "pop2gOr": 100910,
+                "pop2gMtn": 100910,
+                "pop2gMoov": 100910,
+                "pop3gOr": 100910,
+                "pop3gMtn": 100910,
+                "pop3gMoov": 100910,
+                "pop4gOr": 100910,
+                "pop4gMtn": 100910,
+                "pop4gMoov": 100910
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.49826,
+                    6.72836
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0029",
+                "localite": "ABOBO",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "ABIDJAN",
+                "pop": 1030658,
+                "pop2gOr": 1030658,
+                "pop2gMtn": 1030658,
+                "pop2gMoov": 1030658,
+                "pop3gOr": 1030658,
+                "pop3gMtn": 1030658,
+                "pop3gMoov": 1030658,
+                "pop4gOr": 1030658,
+                "pop4gMtn": 1030658,
+                "pop4gMoov": 1030658
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.01735,
+                    5.43515
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0033",
+                "localite": "ABOISSO",
+                "region": "SUD-COMOE",
+                "departement": "ABOISSO",
+                "sous_prefect": "ABOISSO",
+                "pop": 45688,
+                "pop2gOr": 45688,
+                "pop2gMtn": 45688,
+                "pop2gMoov": 45688,
+                "pop3gOr": 45688,
+                "pop3gMtn": 45688,
+                "pop3gMoov": 45688,
+                "pop4gOr": 45688,
+                "pop4gMtn": 45688,
+                "pop4gMoov": 45688
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.20827,
+                    5.47457
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0034",
+                "localite": "ABOISSO-COMOE",
+                "region": "LA ME",
+                "departement": "ALEPE",
+                "sous_prefect": "ABOISSO-COMOE",
+                "pop": 15937,
+                "pop2gOr": 15937,
+                "pop2gMtn": 15937,
+                "pop2gMoov": 15937,
+                "pop3gOr": 15937,
+                "pop3gMtn": 15937,
+                "pop3gMoov": 15937,
+                "pop4gOr": 15937,
+                "pop4gMtn": 15937,
+                "pop4gMoov": 15937
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.40561,
+                    5.73533
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0046",
+                "localite": "ABONGOUA",
+                "region": "LA ME",
+                "departement": "YAKASSE-ATTOBROU",
+                "sous_prefect": "ABONGOUA",
+                "pop": 8373,
+                "pop2gOr": 8373,
+                "pop2gMtn": 8373,
+                "pop2gMoov": 8373,
+                "pop3gOr": 8373,
+                "pop3gMtn": 8373,
+                "pop3gMoov": 8373,
+                "pop4gOr": 8373,
+                "pop4gMtn": 8373,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.54504,
+                    6.25065
+                ],
+                "type": "Point"
+            }
+        }]
+}

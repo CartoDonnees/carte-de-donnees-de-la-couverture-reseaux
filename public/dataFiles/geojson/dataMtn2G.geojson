@@ -1,0 +1,1150 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "",
+                "localite": "",
+                "region": "",
+                "departement": "",
+                "sous_prefect": "",
+                "pop": 0,
+                "pop2gOr": 0,
+                "pop2gMtn": 0,
+                "pop2gMoov": 0,
+                "pop3gOr": 0,
+                "pop3gMtn": 0,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    0,
+                    0
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0001",
+                "localite": "ABADJI-BIMBRESSO",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 2010,
+                "pop2gOr": 2010,
+                "pop2gMtn": 2010,
+                "pop2gMoov": 2010,
+                "pop3gOr": 2010,
+                "pop3gMtn": 2010,
+                "pop3gMoov": 2010,
+                "pop4gOr": 2010,
+                "pop4gMtn": 2010,
+                "pop4gMoov": 2010
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.15446,
+                    5.31229
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0002",
+                "localite": "ABADJIN-DOUMÉ",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 1428,
+                "pop2gOr": 1428,
+                "pop2gMtn": 1428,
+                "pop2gMoov": 1428,
+                "pop3gOr": 1428,
+                "pop3gMtn": 1428,
+                "pop3gMoov": 1428,
+                "pop4gOr": 1428,
+                "pop4gMtn": 1428,
+                "pop4gMoov": 1428
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.14909,
+                    5.30941
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0003",
+                "localite": "ABADJIN-KOUTÉ",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 3549,
+                "pop2gOr": 3549,
+                "pop2gMtn": 3549,
+                "pop2gMoov": 3549,
+                "pop3gOr": 3549,
+                "pop3gMtn": 3549,
+                "pop3gMoov": 3549,
+                "pop4gOr": 3549,
+                "pop4gMtn": 3549,
+                "pop4gMoov": 3549
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.15374,
+                    5.32934
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0004",
+                "localite": "ABAKRO",
+                "region": "YAMOUSSOUKRO",
+                "departement": "YAMOUSSOUKRO",
+                "sous_prefect": "YAMOUSSOUKRO",
+                "pop": 666,
+                "pop2gOr": 666,
+                "pop2gMtn": 666,
+                "pop2gMoov": 666,
+                "pop3gOr": 666,
+                "pop3gMtn": 666,
+                "pop3gMoov": 0,
+                "pop4gOr": 666,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.24465,
+                    6.67842
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0005",
+                "localite": "ABATOULILIÉ",
+                "region": "LOH-DJIBOUA",
+                "departement": "LAKOTA",
+                "sous_prefect": "LAKOTA",
+                "pop": 923,
+                "pop2gOr": 923,
+                "pop2gMtn": 923,
+                "pop2gMoov": 923,
+                "pop3gOr": 923,
+                "pop3gMtn": 923,
+                "pop3gMoov": 0,
+                "pop4gOr": 923,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.60471,
+                    5.99134
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0006",
+                "localite": "ABATTA",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "BINGERVILLE",
+                "pop": 1626,
+                "pop2gOr": 1626,
+                "pop2gMtn": 1626,
+                "pop2gMoov": 1626,
+                "pop3gOr": 1626,
+                "pop3gMtn": 1626,
+                "pop3gMoov": 1626,
+                "pop4gOr": 1626,
+                "pop4gMtn": 1626,
+                "pop4gMoov": 1626
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.91869,
+                    5.32557
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0007",
+                "localite": "ABAYANSI",
+                "region": "GBEKE",
+                "departement": "BÉOUMI",
+                "sous_prefect": "BÉOUMI",
+                "pop": 402,
+                "pop2gOr": 402,
+                "pop2gMtn": 402,
+                "pop2gMoov": 402,
+                "pop3gOr": 402,
+                "pop3gMtn": 402,
+                "pop3gMoov": 0,
+                "pop4gOr": 402,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.57358,
+                    7.59121
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0008",
+                "localite": "ABBÉBÉGNINI",
+                "region": "AGNEBY-TIASSA",
+                "departement": "AGBOVILLE",
+                "sous_prefect": "AZAGUIE",
+                "pop": 2627,
+                "pop2gOr": 2627,
+                "pop2gMtn": 2627,
+                "pop2gMoov": 2627,
+                "pop3gOr": 2627,
+                "pop3gMtn": 2627,
+                "pop3gMoov": 0,
+                "pop4gOr": 2627,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.00258,
+                    5.63466
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0009",
+                "localite": "ABBOKENEGNY",
+                "region": "IFFOU",
+                "departement": "DAOUKRO",
+                "sous_prefect": "DAOUKRO",
+                "pop": 528,
+                "pop2gOr": 528,
+                "pop2gMtn": 528,
+                "pop2gMoov": 0,
+                "pop3gOr": 528,
+                "pop3gMtn": 528,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.16465,
+                    7.16089
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0010",
+                "localite": "ABÉ",
+                "region": "BELIER",
+                "departement": "TIEBISSOU",
+                "sous_prefect": "MOLONOU",
+                "pop": 759,
+                "pop2gOr": 0,
+                "pop2gMtn": 759,
+                "pop2gMoov": 0,
+                "pop3gOr": 0,
+                "pop3gMtn": 759,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.3325,
+                    7.20665
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0011",
+                "localite": "ABÉANOU",
+                "region": "N'ZI",
+                "departement": "BOCANDA",
+                "sous_prefect": "KOUADIOBLEKRO",
+                "pop": 3944,
+                "pop2gOr": 3944,
+                "pop2gMtn": 3944,
+                "pop2gMoov": 0,
+                "pop3gOr": 3944,
+                "pop3gMtn": 3944,
+                "pop3gMoov": 0,
+                "pop4gOr": 3944,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.23459,
+                    6.97364
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0012",
+                "localite": "ABÉDÉNI",
+                "region": "IFFOU",
+                "departement": "PRIKRO",
+                "sous_prefect": "PRIKRO",
+                "pop": 1323,
+                "pop2gOr": 1323,
+                "pop2gMtn": 1323,
+                "pop2gMoov": 1323,
+                "pop3gOr": 1323,
+                "pop3gMtn": 1323,
+                "pop3gMoov": 0,
+                "pop4gOr": 1323,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.06673,
+                    7.68347
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0013",
+                "localite": "ABÉMA",
+                "region": "GONTOUGO",
+                "departement": "BONDOUKOU",
+                "sous_prefect": "BONDOUKOU",
+                "pop": 566,
+                "pop2gOr": 566,
+                "pop2gMtn": 566,
+                "pop2gMoov": 566,
+                "pop3gOr": 566,
+                "pop3gMtn": 566,
+                "pop3gMoov": 0,
+                "pop4gOr": 566,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -2.77242,
+                    8.10277
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0014",
+                "localite": "ABENGOUROU",
+                "region": "INDENIE-DJUABLIN",
+                "departement": "ABENGOUROU",
+                "sous_prefect": "ABENGOUROU",
+                "pop": 100910,
+                "pop2gOr": 100910,
+                "pop2gMtn": 100910,
+                "pop2gMoov": 100910,
+                "pop3gOr": 100910,
+                "pop3gMtn": 100910,
+                "pop3gMoov": 100910,
+                "pop4gOr": 100910,
+                "pop4gMtn": 100910,
+                "pop4gMoov": 100910
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.49826,
+                    6.72836
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0015",
+                "localite": "ABEVÉ/ABEYÉ",
+                "region": "AGNEBY-TIASSA",
+                "departement": "TIASSALE",
+                "sous_prefect": "N'DOUCI",
+                "pop": 2119,
+                "pop2gOr": 2119,
+                "pop2gMtn": 2119,
+                "pop2gMoov": 2119,
+                "pop3gOr": 2119,
+                "pop3gMtn": 2119,
+                "pop3gMoov": 0,
+                "pop4gOr": 2119,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.7415,
+                    5.91
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0016",
+                "localite": "ABEY-AHOUGNASSOU",
+                "region": "GBEKE",
+                "departement": "BOTRO",
+                "sous_prefect": "BOTRO",
+                "pop": 202,
+                "pop2gOr": 202,
+                "pop2gMtn": 202,
+                "pop2gMoov": 202,
+                "pop3gOr": 202,
+                "pop3gMtn": 202,
+                "pop3gMoov": 202,
+                "pop4gOr": 202,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.3415,
+                    7.85
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0017",
+                "localite": "ABEY-KOUADIOKRO",
+                "region": "GBEKE",
+                "departement": "BOTRO",
+                "sous_prefect": "BOTRO",
+                "pop": 291,
+                "pop2gOr": 291,
+                "pop2gMtn": 291,
+                "pop2gMoov": 291,
+                "pop3gOr": 291,
+                "pop3gMtn": 291,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.3615,
+                    7.84
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0018",
+                "localite": "ABIATÉ 2",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "SONGON",
+                "pop": 1426,
+                "pop2gOr": 1426,
+                "pop2gMtn": 1426,
+                "pop2gMoov": 1426,
+                "pop3gOr": 1426,
+                "pop3gMtn": 1426,
+                "pop3gMoov": 0,
+                "pop4gOr": 1426,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.32222,
+                    5.38816
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0019",
+                "localite": "ABIATY",
+                "region": "SUD-COMOE",
+                "departement": "ADIAKÉ",
+                "sous_prefect": "ETUÉBOUÉ",
+                "pop": 1897,
+                "pop2gOr": 1897,
+                "pop2gMtn": 1897,
+                "pop2gMoov": 1897,
+                "pop3gOr": 1897,
+                "pop3gMtn": 1897,
+                "pop3gMoov": 1897,
+                "pop4gOr": 1897,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.17247,
+                    5.28874
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0020",
+                "localite": "ABIE",
+                "region": "LA ME",
+                "departement": "ADZOPE",
+                "sous_prefect": "YAKASSE-ME",
+                "pop": 4864,
+                "pop2gOr": 4864,
+                "pop2gMtn": 4864,
+                "pop2gMoov": 4864,
+                "pop3gOr": 4864,
+                "pop3gMtn": 4864,
+                "pop3gMoov": 4864,
+                "pop4gOr": 4864,
+                "pop4gMtn": 0,
+                "pop4gMoov": 4864
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.92768,
+                    5.86912
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0021",
+                "localite": "ABIÉHOU",
+                "region": "AGNEBY-TIASSA",
+                "departement": "SIKENSI",
+                "sous_prefect": "SIKENSI",
+                "pop": 1923,
+                "pop2gOr": 1923,
+                "pop2gMtn": 1923,
+                "pop2gMoov": 0,
+                "pop3gOr": 1923,
+                "pop3gMtn": 1923,
+                "pop3gMoov": 0,
+                "pop4gOr": 1923,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.53275,
+                    5.55345
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0023",
+                "localite": "ABIGUI",
+                "region": "BELIER",
+                "departement": "TIEBISSOU",
+                "sous_prefect": "YAKPABO-SAKASSOU",
+                "pop": 331,
+                "pop2gOr": 331,
+                "pop2gMtn": 331,
+                "pop2gMoov": 0,
+                "pop3gOr": 331,
+                "pop3gMtn": 331,
+                "pop3gMoov": 0,
+                "pop4gOr": 331,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.01758,
+                    6.9424
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0024",
+                "localite": "ABIKRO",
+                "region": "GBEKE",
+                "departement": "BÉOUMI",
+                "sous_prefect": "BODOKRO",
+                "pop": 675,
+                "pop2gOr": 675,
+                "pop2gMtn": 675,
+                "pop2gMoov": 675,
+                "pop3gOr": 675,
+                "pop3gMtn": 675,
+                "pop3gMoov": 0,
+                "pop4gOr": 675,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.444,
+                    7.80999
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0025",
+                "localite": "ABLEKRO",
+                "region": "GBEKE",
+                "departement": "BOUAKE",
+                "sous_prefect": "DJEBONOUA",
+                "pop": 179,
+                "pop2gOr": 179,
+                "pop2gMtn": 179,
+                "pop2gMoov": 179,
+                "pop3gOr": 179,
+                "pop3gMtn": 179,
+                "pop3gMoov": 179,
+                "pop4gOr": 179,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.07019,
+                    7.50897
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0026",
+                "localite": "ABLI-ALOUKRO",
+                "region": "BELIER",
+                "departement": "TOUMODI",
+                "sous_prefect": "TOUMODI",
+                "pop": 773,
+                "pop2gOr": 773,
+                "pop2gMtn": 773,
+                "pop2gMoov": 773,
+                "pop3gOr": 773,
+                "pop3gMtn": 773,
+                "pop3gMoov": 773,
+                "pop4gOr": 773,
+                "pop4gMtn": 0,
+                "pop4gMoov": 773
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.0115,
+                    6.59
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0027",
+                "localite": "ABLI-BONIKRO",
+                "region": "BELIER",
+                "departement": "TOUMODI",
+                "sous_prefect": "TOUMODI",
+                "pop": 648,
+                "pop2gOr": 648,
+                "pop2gMtn": 648,
+                "pop2gMoov": 648,
+                "pop3gOr": 648,
+                "pop3gMtn": 648,
+                "pop3gMoov": 648,
+                "pop4gOr": 648,
+                "pop4gMtn": 0,
+                "pop4gMoov": 648
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.0015,
+                    6.6
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0028",
+                "localite": "ABOBLAKRO",
+                "region": "BELIER",
+                "departement": "TIEBISSOU",
+                "sous_prefect": "LOMOKANKRO",
+                "pop": 614,
+                "pop2gOr": 614,
+                "pop2gMtn": 614,
+                "pop2gMoov": 614,
+                "pop3gOr": 614,
+                "pop3gMtn": 614,
+                "pop3gMoov": 0,
+                "pop4gOr": 614,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.9815,
+                    7.09
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0029",
+                "localite": "ABOBO",
+                "region": "ABIDJAN",
+                "departement": "ABIDJAN",
+                "sous_prefect": "ABIDJAN",
+                "pop": 1030658,
+                "pop2gOr": 1030658,
+                "pop2gMtn": 1030658,
+                "pop2gMoov": 1030658,
+                "pop3gOr": 1030658,
+                "pop3gMtn": 1030658,
+                "pop3gMoov": 1030658,
+                "pop4gOr": 1030658,
+                "pop4gMtn": 1030658,
+                "pop4gMoov": 1030658
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.01735,
+                    5.43515
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0030",
+                "localite": "ABODAGUI",
+                "region": "NAWA",
+                "departement": "MEAGUI",
+                "sous_prefect": "MÉAGUI",
+                "pop": 1402,
+                "pop2gOr": 0,
+                "pop2gMtn": 1402,
+                "pop2gMoov": 0,
+                "pop3gOr": 0,
+                "pop3gMtn": 1402,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -6.4515,
+                    5.36
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0031",
+                "localite": "ABOGNIKRO",
+                "region": "N'ZI",
+                "departement": "BOCANDA",
+                "sous_prefect": "BOCANDA",
+                "pop": 896,
+                "pop2gOr": 896,
+                "pop2gMtn": 896,
+                "pop2gMoov": 0,
+                "pop3gOr": 896,
+                "pop3gMtn": 896,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.4438,
+                    7.19182
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0032",
+                "localite": "ABOHIO",
+                "region": "GOH",
+                "departement": "GAGNOA",
+                "sous_prefect": "GNAGBODOUGNOA",
+                "pop": 406,
+                "pop2gOr": 406,
+                "pop2gMtn": 406,
+                "pop2gMoov": 406,
+                "pop3gOr": 406,
+                "pop3gMtn": 406,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.80717,
+                    5.97168
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0033",
+                "localite": "ABOISSO",
+                "region": "SUD-COMOE",
+                "departement": "ABOISSO",
+                "sous_prefect": "ABOISSO",
+                "pop": 45688,
+                "pop2gOr": 45688,
+                "pop2gMtn": 45688,
+                "pop2gMoov": 45688,
+                "pop3gOr": 45688,
+                "pop3gMtn": 45688,
+                "pop3gMoov": 45688,
+                "pop4gOr": 45688,
+                "pop4gMtn": 45688,
+                "pop4gMoov": 45688
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.20827,
+                    5.47457
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0034",
+                "localite": "ABOISSO-COMOE",
+                "region": "LA ME",
+                "departement": "ALEPE",
+                "sous_prefect": "ABOISSO-COMOE",
+                "pop": 15937,
+                "pop2gOr": 15937,
+                "pop2gMtn": 15937,
+                "pop2gMoov": 15937,
+                "pop3gOr": 15937,
+                "pop3gMtn": 15937,
+                "pop3gMoov": 15937,
+                "pop4gOr": 15937,
+                "pop4gMtn": 15937,
+                "pop4gMoov": 15937
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.40561,
+                    5.73533
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0035",
+                "localite": "ABOKA",
+                "region": "HAUT-SASSANDRA",
+                "departement": "ISSIA",
+                "sous_prefect": "IBOGUHE",
+                "pop": 12055,
+                "pop2gOr": 12055,
+                "pop2gMtn": 12055,
+                "pop2gMoov": 12055,
+                "pop3gOr": 12055,
+                "pop3gMtn": 12055,
+                "pop3gMoov": 12055,
+                "pop4gOr": 12055,
+                "pop4gMtn": 0,
+                "pop4gMoov": 12055
+            },
+            "geometry": {
+                "coordinates": [
+                    -6.8115,
+                    6.53
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0037",
+                "localite": "ABOKOUAMÉKRO",
+                "region": "YAMOUSSOUKRO",
+                "departement": "ATTIÉGOUAKRO",
+                "sous_prefect": "ATTIÉGOUAKRO",
+                "pop": 873,
+                "pop2gOr": 873,
+                "pop2gMtn": 873,
+                "pop2gMoov": 873,
+                "pop3gOr": 873,
+                "pop3gMtn": 873,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.0515,
+                    6.83
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0039",
+                "localite": "ABOKOUMA",
+                "region": "GONTOUGO",
+                "departement": "TANDA",
+                "sous_prefect": "TANDA",
+                "pop": 1129,
+                "pop2gOr": 1129,
+                "pop2gMtn": 1129,
+                "pop2gMoov": 1129,
+                "pop3gOr": 1129,
+                "pop3gMtn": 1129,
+                "pop3gMoov": 0,
+                "pop4gOr": 1129,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.1315,
+                    7.71
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0041",
+                "localite": "ABOKRO",
+                "region": "GBEKE",
+                "departement": "BOUAKE",
+                "sous_prefect": "BOUAKÉ",
+                "pop": 214,
+                "pop2gOr": 214,
+                "pop2gMtn": 214,
+                "pop2gMoov": 214,
+                "pop3gOr": 214,
+                "pop3gMtn": 214,
+                "pop3gMoov": 0,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.08206,
+                    7.91634
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0040",
+                "localite": "ABOKRO",
+                "region": "GONTOUGO",
+                "departement": "TRANSUA",
+                "sous_prefect": "ASSUÉFRY",
+                "pop": 394,
+                "pop2gOr": 394,
+                "pop2gMtn": 394,
+                "pop2gMoov": 394,
+                "pop3gOr": 394,
+                "pop3gMtn": 394,
+                "pop3gMoov": 394,
+                "pop4gOr": 394,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -2.98661,
+                    7.6468
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0043",
+                "localite": "ABOKRO-DAMÉ",
+                "region": "GONTOUGO",
+                "departement": "KOUN-FAO",
+                "sous_prefect": "KOUN-FAO",
+                "pop": 1005,
+                "pop2gOr": 1005,
+                "pop2gMtn": 1005,
+                "pop2gMoov": 1005,
+                "pop3gOr": 1005,
+                "pop3gMtn": 1005,
+                "pop3gMoov": 1005,
+                "pop4gOr": 0,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.36079,
+                    7.51846
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0045",
+                "localite": "ABOLIKRO",
+                "region": "GBEKE",
+                "departement": "BOTRO",
+                "sous_prefect": "LANGUIBONOU",
+                "pop": 2736,
+                "pop2gOr": 2736,
+                "pop2gMtn": 2736,
+                "pop2gMoov": 2736,
+                "pop3gOr": 2736,
+                "pop3gMtn": 2736,
+                "pop3gMoov": 2736,
+                "pop4gOr": 2736,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -5.33595,
+                    7.68257
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0046",
+                "localite": "ABONGOUA",
+                "region": "LA ME",
+                "departement": "YAKASSE-ATTOBROU",
+                "sous_prefect": "ABONGOUA",
+                "pop": 8373,
+                "pop2gOr": 8373,
+                "pop2gMtn": 8373,
+                "pop2gMoov": 8373,
+                "pop3gOr": 8373,
+                "pop3gMtn": 8373,
+                "pop3gMoov": 8373,
+                "pop4gOr": 8373,
+                "pop4gMtn": 8373,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.54504,
+                    6.25065
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0047",
+                "localite": "ABONGOUA",
+                "region": "MORONOU",
+                "departement": "ARRAH",
+                "sous_prefect": "KOTOBI",
+                "pop": 10408,
+                "pop2gOr": 10408,
+                "pop2gMtn": 10408,
+                "pop2gMoov": 10408,
+                "pop3gOr": 10408,
+                "pop3gMtn": 10408,
+                "pop3gMoov": 10408,
+                "pop4gOr": 10408,
+                "pop4gMtn": 0,
+                "pop4gMoov": 10408
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.10308,
+                    6.65387
+                ],
+                "type": "Point"
+            }
+        },{
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0049",
+                "localite": "ABONGUI-MOROKRO",
+                "region": "GONTOUGO",
+                "departement": "KOUN-FAO",
+                "sous_prefect": "KOUASSI-DATEKRO",
+                "pop": 649,
+                "pop2gOr": 649,
+                "pop2gMtn": 649,
+                "pop2gMoov": 649,
+                "pop3gOr": 649,
+                "pop3gMtn": 649,
+                "pop3gMoov": 0,
+                "pop4gOr": 649,
+                "pop4gMtn": 0,
+                "pop4gMoov": 0
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.41591,
+                    7.89819
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}

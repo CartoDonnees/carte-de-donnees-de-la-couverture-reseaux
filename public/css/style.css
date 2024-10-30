@@ -1,0 +1,26 @@
+.m_nav {
+    padding: 0px !important;
+}
+
+.t_nl {
+    background-color: rgb(162, 184, 162);
+    padding: 5px !important;
+    margin-top: 10px !important;
+    float: right;
+    color: white !important;
+}
+
+.t_nl:hover {
+    background-color: rgb(35, 175, 35) !important;
+}
+
+.o_radio {
+    height: 20px !important;
+}
+
+.dd-none{
+    display: none !important;
+}
+.select2-selection .select2-selection--single{
+    height:  38px !important;
+}

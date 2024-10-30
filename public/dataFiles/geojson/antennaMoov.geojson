@@ -1,0 +1,181 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0002",
+                "localite": "ABADJIN-DOUMÉ",
+                "operateur": "moov",
+                "tech": "2G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.14759,
+                    5.30941
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0003",
+                "localite": "ABADJIN-KOUTÉ",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.15224,
+                    5.32934
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0006",
+                "localite": "ABATTA",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.91719,
+                    5.32557
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0014",
+                "localite": "ABENGOUROU",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.49676,
+                    6.72836
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0020",
+                "localite": "ABIE",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.92618,
+                    5.86912
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0029",
+                "localite": "ABOBO",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.01585,
+                    5.43515
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0033",
+                "localite": "ABOISSO",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.20677,
+                    5.47457
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0034",
+                "localite": "ABOISSO-COMOE",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.40411,
+                    5.73533
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0035",
+                "localite": "ABOKA",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -6.81,
+                    6.53
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0046",
+                "localite": "ABONGOUA",
+                "operateur": "moov",
+                "tech": "3G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -3.54354,
+                    6.25065
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "code_loc": "C0047",
+                "localite": "ABONGOUA",
+                "operateur": "moov",
+                "tech": "4G"
+            },
+            "geometry": {
+                "coordinates": [
+                    -4.10158,
+                    6.65387
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
