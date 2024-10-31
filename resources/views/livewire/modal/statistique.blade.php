@@ -46,7 +46,7 @@
                     <script>
                         var btyall = document.getElementById('tbyall');
                         var taa = null;
-                        var donnee = 'dataFiles/geojson/ci_limite_distrricts.geojson';
+                        var donnee = 'dataFiles/geojson/district_limites_30_06_2024.geojson';
 
                         function afficherDonneesDuJSON() {
                             // Chargement du fichier JSON à partir de son nom
@@ -57,32 +57,6 @@
                                 $('#myalldata').dataTable().fnDestroy();
                             }
 
-                            fetch(donnee)
-                                .then(response => response.json())
-                                .then(function(data) {
-                                    for (var i = 0; i < data['features'].length; i++) {
-                                        var tra = document.createElement('tr');
-                                        tra.id = i + "a";
-                                        btyall.appendChild(tra);
-                                        optionAr = data['features'][i]['properties'];
-                                        for (op in optionAr) {
-
-                                            if (op == 'admin1Name' || op == 'population' || op == 'popcouv' || op == 'nopopcouv' || op == 'nbloc' || op == 'nbcouvloc' || op == 'nbnocouvloc') {
-                                                var sub = document.getElementById(tra.id)
-                                                var tex = optionAr.op;
-                                                var tda = document.createElement('td');
-                                                tda.innerHTML = tex;
-                                                sub.appendChild(tda);
-                                            }
-                                        }
-                                    }
-                                })
-                                .catch(error => {
-                                    console.error('Une erreur est survenue : ', error);
-                                })
-                                setTimeout(() => {
-                                taa = tableAdd('myalldata');
-                            }, 3000);
                         }
                         // fetch('dataFiles/geojson/ci_limite_distrricts.geojson')
                         //     .then(results => results.json())
@@ -97,7 +71,35 @@
                         //         }
                         //     });
 
-                        // function initAllDataTable() {
+                        function initAllDataTable() {
+                            
+                            // fetch(donnee)
+                            //     .then(response => response.json())
+                            //     .then(function(data) {
+                            //         for (var i = 0; i < data['features'].length; i++) {
+                            //             var tra = document.createElement('tr');
+                            //             tra.id = i + "a";
+                            //             btyall.appendChild(tra);
+                            //             optionAr = data['features'][i]['properties'];
+                            //             for (op in optionAr) {
+                            //                 var sub = document.getElementById(tra.id)
+                            //                 if (op == 'admin1Name' || op == 'population' || op == 'popcouv' || op == 'nopopcouv' || op == 'nbloc' || op == 'nbcouvloc' || op == 'nbnocouvloc') {
+                            //                     var sub = document.getElementById(tra.id)
+                            //                     var tex = optionAr.op;
+                            //                     var tda = document.createElement('td');
+                            //                     tda.innerHTML = tex;
+                            //                     sub.appendChild(tda);
+                            //                 }
+                            //                 sub.appendChild(tda);
+                            //             }
+                            //         }
+                            //     })
+                            //     .catch(error => {
+                            //         console.error('Une erreur est survenue : ', error);
+                            //     })
+                            //     setTimeout(() => {
+                            //     taa = tableAdd('myalldata');
+                            // }, 3000);
                             
                         //     var iab = 1;
                         //     for (da in dwdData) {
@@ -127,9 +129,7 @@
                         //     setTimeout(() => {
                         //         taa = tableAdd('myalldata');
                         //     }, 3000);
-                        // }
-
-
+                        }
 
                         function generateAl() {
                             var doc = new jspdf.jsPDF('l')
